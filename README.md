@@ -1,3 +1,6 @@
+# Description
+This was the second of two projects for the class CS 3300: Data-Driven Web Applications. The task was to create an interactive data visualization. My group consisted of me and two other people. While this is the product of all of our work, I implemented the feature which allows for the different views of the data depending on which button is clicked. I also had a hand in the plotting and representation of the data and improving the look of the page.
+
 # How to Use
 1. Download the repository somwhere on your computer.
 2. cd into the directory
