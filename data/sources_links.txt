@@ -1,0 +1,14 @@
+GDP Per Capita in USD, all countries, by year
+http://unstats.un.org/unsd/snaama/dnltransfer.asp?fID=9
+
+Immigration to USA, all countries, by year
+http://www.un.org/en/development/desa/population/migration/data/empirical2/data/UN_MigFlow_All_CountryFiles.zip
+
+Population, all countries, by year
+http://api.worldbank.org/v2/en/indicator/sp.pop.totl?downloadformat=excel
+
+Unemployment, all countries, by year
+http://api.worldbank.org/v2/en/indicator/sl.uem.totl.zs?downloadformat=excel
+
+Life Expectancy, all countries, by year
+http://api.worldbank.org/v2/en/indicator/sp.dyn.le00.in?downloadformat=excel

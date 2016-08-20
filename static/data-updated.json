@@ -1,0 +1,3896 @@
+{
+    "1992": {
+        "124": {
+            "emigrants": 15205, 
+            "gdppc": 20813.0, 
+            "life_expectancy": 77.32073171, 
+            "population": 28519597, 
+            "unemployment": 11.19999981
+        }, 
+        "156": {
+            "emigrants": 38907, 
+            "gdppc": 415.0, 
+            "life_expectancy": 69.33963415, 
+            "population": 1164970000, 
+            "unemployment": 4.400000095
+        }, 
+        "170": {
+            "emigrants": 13201, 
+            "gdppc": 1755.0, 
+            "life_expectancy": 68.64021951, 
+            "population": 35558683, 
+            "unemployment": 10.0
+        }, 
+        "192": {
+            "emigrants": 11791, 
+            "gdppc": 2057.0, 
+            "life_expectancy": 74.80329268, 
+            "population": 10735775, 
+            "unemployment": 6.0
+        }, 
+        "214": {
+            "emigrants": 41969, 
+            "gdppc": 1611.0, 
+            "life_expectancy": 68.83712195, 
+            "population": 7468551, 
+            "unemployment": 20.70000076
+        }, 
+        "218": {
+            "emigrants": 7286, 
+            "gdppc": 1400.0, 
+            "life_expectancy": 69.96358537, 
+            "population": 10705670, 
+            "unemployment": 4.699999809
+        }, 
+        "222": {
+            "emigrants": 26191, 
+            "gdppc": 1104.0, 
+            "life_expectancy": 65.57797561, 
+            "population": 5392142, 
+            "unemployment": 8.0
+        }, 
+        "276": {
+            "emigrants": 9888, 
+            "gdppc": 26515.0, 
+            "life_expectancy": 75.8195122, 
+            "population": 80624598, 
+            "unemployment": 6.599999905
+        }, 
+        "320": {
+            "emigrants": 10521, 
+            "gdppc": 968.0, 
+            "life_expectancy": 63.3117561, 
+            "population": 9619113, 
+            "unemployment": 3.299999952
+        }, 
+        "328": {
+            "emigrants": 9064, 
+            "gdppc": 831.0, 
+            "life_expectancy": 63.7832439, 
+            "population": 717621, 
+            "unemployment": 11.89999962
+        }, 
+        "332": {
+            "emigrants": 11002, 
+            "gdppc": 286.0, 
+            "life_expectancy": 55.25595122, 
+            "population": 7386974, 
+            "unemployment": 11.60000038
+        }, 
+        "356": {
+            "emigrants": 36755, 
+            "gdppc": 315.0, 
+            "life_expectancy": 58.94507317, 
+            "population": 906461358, 
+            "unemployment": 4.199999809
+        }, 
+        "364": {
+            "emigrants": 13233, 
+            "gdppc": 1887.0, 
+            "life_expectancy": 66.2035122, 
+            "population": 58130099, 
+            "unemployment": 12.39999962
+        }, 
+        "388": {
+            "emigrants": 18915, 
+            "gdppc": 1723.0, 
+            "life_expectancy": 71.96273171, 
+            "population": 2423044, 
+            "unemployment": 15.39999962
+        }, 
+        "484": {
+            "emigrants": 213802, 
+            "gdppc": 4556.0, 
+            "life_expectancy": 71.58582927, 
+            "population": 89110043, 
+            "unemployment": 3.099999905
+        }, 
+        "566": {
+            "emigrants": 4551, 
+            "gdppc": 577.0, 
+            "life_expectancy": 46.07495122, 
+            "population": 100592458, 
+            "unemployment": 7.400000095
+        }, 
+        "586": {
+            "emigrants": 10214, 
+            "gdppc": 554.0, 
+            "life_expectancy": 60.67621951, 
+            "population": 113616165, 
+            "unemployment": 5.199999809
+        }, 
+        "604": {
+            "emigrants": 9868, 
+            "gdppc": 1532.0, 
+            "life_expectancy": 66.51736585, 
+            "population": 22737056, 
+            "unemployment": 4.900000095
+        }, 
+        "608": {
+            "emigrants": 61022, 
+            "gdppc": 902.0, 
+            "life_expectancy": 65.64846341, 
+            "population": 65078901, 
+            "unemployment": 8.600000381
+        }, 
+        "616": {
+            "emigrants": 25504, 
+            "gdppc": 2458.0, 
+            "life_expectancy": 71.0902439, 
+            "population": 38363667, 
+            "unemployment": 13.30000019
+        }, 
+        "643": {
+            "emigrants": 8857, 
+            "gdppc": 3305.0, 
+            "life_expectancy": 66.87317073, 
+            "population": 148689000, 
+            "unemployment": 5.199999809
+        }, 
+        "410": {
+            "emigrants": 19359, 
+            "gdppc": 8009.0, 
+            "life_expectancy": 72.2004878, 
+            "population": 43747962, 
+            "unemployment": 2.5
+        }, 
+        "804": {
+            "emigrants": 14383, 
+            "gdppc": 1586.0, 
+            "life_expectancy": 69.06829268, 
+            "population": 52150266, 
+            "unemployment": 7.5
+        }, 
+        "826": {
+            "emigrants": 19973, 
+            "gdppc": 20546.0, 
+            "life_expectancy": 76.43414634, 
+            "population": 57580402, 
+            "unemployment": 9.899999619
+        }, 
+        "704": {
+            "emigrants": 77735, 
+            "gdppc": 139.0, 
+            "life_expectancy": 70.99546341, 
+            "population": 68450100, 
+            "unemployment": 2.700000048
+        }
+    }, 
+    "1993": {
+        "124": {
+            "emigrants": 17156, 
+            "gdppc": 20043.0, 
+            "life_expectancy": 77.68512195, 
+            "population": 28833410, 
+            "unemployment": 11.39999962
+        }, 
+        "156": {
+            "emigrants": 65578, 
+            "gdppc": 516.0, 
+            "life_expectancy": 69.50921951, 
+            "population": 1178440000, 
+            "unemployment": 4.300000191
+        }, 
+        "170": {
+            "emigrants": 12819, 
+            "gdppc": 1995.0, 
+            "life_expectancy": 68.86563415, 
+            "population": 36195170, 
+            "unemployment": 12.5
+        }, 
+        "192": {
+            "emigrants": 13666, 
+            "gdppc": 2072.0, 
+            "life_expectancy": 74.95892683, 
+            "population": 10797556, 
+            "unemployment": 3.5
+        }, 
+        "214": {
+            "emigrants": 45420, 
+            "gdppc": 1793.0, 
+            "life_expectancy": 69.19063415, 
+            "population": 7611463, 
+            "unemployment": 19.89999962
+        }, 
+        "218": {
+            "emigrants": 7324, 
+            "gdppc": 1547.0, 
+            "life_expectancy": 70.40882927, 
+            "population": 10951200, 
+            "unemployment": 4.699999809
+        }, 
+        "222": {
+            "emigrants": 26818, 
+            "gdppc": 1270.0, 
+            "life_expectancy": 66.22282927, 
+            "population": 5461834, 
+            "unemployment": 9.899999619
+        }, 
+        "276": {
+            "emigrants": 7312, 
+            "gdppc": 25639.0, 
+            "life_expectancy": 75.87073171, 
+            "population": 81156363, 
+            "unemployment": 7.900000095
+        }, 
+        "320": {
+            "emigrants": 11870, 
+            "gdppc": 1031.0, 
+            "life_expectancy": 63.85639024, 
+            "population": 9860063, 
+            "unemployment": 2.700000048
+        }, 
+        "328": {
+            "emigrants": 8384, 
+            "gdppc": 1033.0, 
+            "life_expectancy": 63.9252439, 
+            "population": 719910, 
+            "unemployment": 12.0
+        }, 
+        "332": {
+            "emigrants": 10094, 
+            "gdppc": 240.0, 
+            "life_expectancy": 55.59846341, 
+            "population": 7530703, 
+            "unemployment": 11.80000019
+        }, 
+        "356": {
+            "emigrants": 40121, 
+            "gdppc": 301.0, 
+            "life_expectancy": 59.45292683, 
+            "population": 924475633, 
+            "unemployment": 4.300000191
+        }, 
+        "364": {
+            "emigrants": 14841, 
+            "gdppc": 2027.0, 
+            "life_expectancy": 67.07821951, 
+            "population": 58811858, 
+            "unemployment": 12.19999981
+        }, 
+        "388": {
+            "emigrants": 17241, 
+            "gdppc": 2191.0, 
+            "life_expectancy": 71.94365854, 
+            "population": 2441024, 
+            "unemployment": 16.29999924
+        }, 
+        "484": {
+            "emigrants": 126561, 
+            "gdppc": 4954.0, 
+            "life_expectancy": 71.97782927, 
+            "population": 90887097, 
+            "unemployment": 3.200000048
+        }, 
+        "566": {
+            "emigrants": 4448, 
+            "gdppc": 549.0, 
+            "life_expectancy": 46.07282927, 
+            "population": 103145093, 
+            "unemployment": 7.400000095
+        }, 
+        "586": {
+            "emigrants": 8927, 
+            "gdppc": 533.0, 
+            "life_expectancy": 60.95017073, 
+            "population": 116579605, 
+            "unemployment": 4.300000191
+        }, 
+        "604": {
+            "emigrants": 10447, 
+            "gdppc": 1450.0, 
+            "life_expectancy": 67.0134878, 
+            "population": 23184222, 
+            "unemployment": 7.099999905
+        }, 
+        "608": {
+            "emigrants": 63457, 
+            "gdppc": 904.0, 
+            "life_expectancy": 65.79965854, 
+            "population": 66654954, 
+            "unemployment": 8.899999619
+        }, 
+        "616": {
+            "emigrants": 27846, 
+            "gdppc": 2500.0, 
+            "life_expectancy": 71.59512195, 
+            "population": 38461408, 
+            "unemployment": 14.0
+        }, 
+        "643": {
+            "emigrants": 12079, 
+            "gdppc": 3087.0, 
+            "life_expectancy": 64.93585366, 
+            "population": 148520000, 
+            "unemployment": 5.900000095
+        }, 
+        "410": {
+            "emigrants": 18026, 
+            "gdppc": 8773.0, 
+            "life_expectancy": 72.68195122, 
+            "population": 44194628, 
+            "unemployment": 2.900000095
+        }, 
+        "804": {
+            "emigrants": 18316, 
+            "gdppc": 1395.0, 
+            "life_expectancy": 68.47560976, 
+            "population": 52179210, 
+            "unemployment": 8.699999809
+        }, 
+        "826": {
+            "emigrants": 18783, 
+            "gdppc": 18436.0, 
+            "life_expectancy": 76.38536585, 
+            "population": 57718614, 
+            "unemployment": 10.5
+        }, 
+        "704": {
+            "emigrants": 59614, 
+            "gdppc": 182.0, 
+            "life_expectancy": 71.28241463, 
+            "population": 69644500, 
+            "unemployment": 3.0
+        }
+    }, 
+    "1994": {
+        "124": {
+            "emigrants": 16068, 
+            "gdppc": 19864.0, 
+            "life_expectancy": 77.86195122, 
+            "population": 29111906, 
+            "unemployment": 10.39999962
+        }, 
+        "156": {
+            "emigrants": 53985, 
+            "gdppc": 464.0, 
+            "life_expectancy": 69.69992683, 
+            "population": 1191835000, 
+            "unemployment": 4.300000191
+        }, 
+        "170": {
+            "emigrants": 10847, 
+            "gdppc": 2588.0, 
+            "life_expectancy": 69.12958537, 
+            "population": 36823539, 
+            "unemployment": 12.0
+        }, 
+        "192": {
+            "emigrants": 14727, 
+            "gdppc": 2621.0, 
+            "life_expectancy": 75.16397561, 
+            "population": 10853435, 
+            "unemployment": 3.599999905
+        }, 
+        "214": {
+            "emigrants": 51189, 
+            "gdppc": 1912.0, 
+            "life_expectancy": 69.48326829, 
+            "population": 7753052, 
+            "unemployment": 16.20000076
+        }, 
+        "218": {
+            "emigrants": 5906, 
+            "gdppc": 1866.0, 
+            "life_expectancy": 70.82904878, 
+            "population": 11196476, 
+            "unemployment": 7.699999809
+        }, 
+        "222": {
+            "emigrants": 17644, 
+            "gdppc": 1463.0, 
+            "life_expectancy": 66.76304878, 
+            "population": 5528012, 
+            "unemployment": 7.699999809
+        }, 
+        "276": {
+            "emigrants": 6992, 
+            "gdppc": 27164.0, 
+            "life_expectancy": 76.27073171, 
+            "population": 81438348, 
+            "unemployment": 8.399999619
+        }, 
+        "320": {
+            "emigrants": 7389, 
+            "gdppc": 1145.0, 
+            "life_expectancy": 64.40658537, 
+            "population": 10106463, 
+            "unemployment": 2.599999905
+        }, 
+        "328": {
+            "emigrants": 7662, 
+            "gdppc": 1202.0, 
+            "life_expectancy": 64.07339024, 
+            "population": 723230, 
+            "unemployment": 11.89999962
+        }, 
+        "332": {
+            "emigrants": 13333, 
+            "gdppc": 277.0, 
+            "life_expectancy": 55.9405122, 
+            "population": 7674911, 
+            "unemployment": 12.39999962
+        }, 
+        "356": {
+            "emigrants": 34921, 
+            "gdppc": 338.0, 
+            "life_expectancy": 59.95482927, 
+            "population": 942604211, 
+            "unemployment": 3.700000048
+        }, 
+        "364": {
+            "emigrants": 11422, 
+            "gdppc": 1922.0, 
+            "life_expectancy": 67.77139024, 
+            "population": 59501292, 
+            "unemployment": 12.0
+        }, 
+        "388": {
+            "emigrants": 14349, 
+            "gdppc": 2191.0, 
+            "life_expectancy": 71.93536585, 
+            "population": 2460002, 
+            "unemployment": 15.39999962
+        }, 
+        "484": {
+            "emigrants": 111398, 
+            "gdppc": 5071.0, 
+            "life_expectancy": 72.36385366, 
+            "population": 92663664, 
+            "unemployment": 4.199999809
+        }, 
+        "566": {
+            "emigrants": 3950, 
+            "gdppc": 445.0, 
+            "life_expectancy": 46.08556098, 
+            "population": 105753088, 
+            "unemployment": 7.400000095
+        }, 
+        "586": {
+            "emigrants": 8698, 
+            "gdppc": 560.0, 
+            "life_expectancy": 61.21953659, 
+            "population": 119564925, 
+            "unemployment": 4.300000191
+        }, 
+        "604": {
+            "emigrants": 9177, 
+            "gdppc": 1835.0, 
+            "life_expectancy": 67.5125122, 
+            "population": 23619358, 
+            "unemployment": 5.400000095
+        }, 
+        "608": {
+            "emigrants": 53535, 
+            "gdppc": 1040.0, 
+            "life_expectancy": 65.93885366, 
+            "population": 68240134, 
+            "unemployment": 8.399999619
+        }, 
+        "616": {
+            "emigrants": 28048, 
+            "gdppc": 2875.0, 
+            "life_expectancy": 71.69512195, 
+            "population": 38542652, 
+            "unemployment": 14.39999962
+        }, 
+        "643": {
+            "emigrants": 15249, 
+            "gdppc": 2752.0, 
+            "life_expectancy": 64.46707317, 
+            "population": 148336000, 
+            "unemployment": 8.100000381
+        }, 
+        "410": {
+            "emigrants": 16011, 
+            "gdppc": 10275.0, 
+            "life_expectancy": 73.04317073, 
+            "population": 44641540, 
+            "unemployment": 2.5
+        }, 
+        "804": {
+            "emigrants": 21010, 
+            "gdppc": 1102.0, 
+            "life_expectancy": 67.83853659, 
+            "population": 51921041, 
+            "unemployment": 7.0
+        }, 
+        "826": {
+            "emigrants": 16326, 
+            "gdppc": 19752.0, 
+            "life_expectancy": 76.88536585, 
+            "population": 57865745, 
+            "unemployment": 9.800000191
+        }, 
+        "704": {
+            "emigrants": 41345, 
+            "gdppc": 220.0, 
+            "life_expectancy": 71.5684878, 
+            "population": 70824500, 
+            "unemployment": 2.5
+        }
+    }, 
+    "1995": {
+        "124": {
+            "emigrants": 12932, 
+            "gdppc": 20547.0, 
+            "life_expectancy": 77.97756098, 
+            "population": 29354000, 
+            "unemployment": 9.5
+        }, 
+        "156": {
+            "emigrants": 35463, 
+            "gdppc": 598.0, 
+            "life_expectancy": 69.92641463, 
+            "population": 1204855000, 
+            "unemployment": 4.5
+        }, 
+        "170": {
+            "emigrants": 10838, 
+            "gdppc": 2946.0, 
+            "life_expectancy": 69.42692683, 
+            "population": 37441980, 
+            "unemployment": 12.39999962
+        }, 
+        "192": {
+            "emigrants": 17937, 
+            "gdppc": 2790.0, 
+            "life_expectancy": 75.409, 
+            "population": 10906048, 
+            "unemployment": 8.300000191
+        }, 
+        "214": {
+            "emigrants": 38512, 
+            "gdppc": 2098.0, 
+            "life_expectancy": 69.7205122, 
+            "population": 7892420, 
+            "unemployment": 15.80000019
+        }, 
+        "218": {
+            "emigrants": 6397, 
+            "gdppc": 1986.0, 
+            "life_expectancy": 71.22682927, 
+            "population": 11440576, 
+            "unemployment": 4.699999809
+        }, 
+        "222": {
+            "emigrants": 11744, 
+            "gdppc": 1700.0, 
+            "life_expectancy": 67.20519512, 
+            "population": 5588743, 
+            "unemployment": 7.599999905
+        }, 
+        "276": {
+            "emigrants": 6237, 
+            "gdppc": 31753.0, 
+            "life_expectancy": 76.42195122, 
+            "population": 81678051, 
+            "unemployment": 8.100000381
+        }, 
+        "320": {
+            "emigrants": 6213, 
+            "gdppc": 1261.0, 
+            "life_expectancy": 64.96297561, 
+            "population": 10357354, 
+            "unemployment": 3.5
+        }, 
+        "328": {
+            "emigrants": 7362, 
+            "gdppc": 1364.0, 
+            "life_expectancy": 64.22565854, 
+            "population": 726695, 
+            "unemployment": 11.80000019
+        }, 
+        "332": {
+            "emigrants": 14021, 
+            "gdppc": 345.0, 
+            "life_expectancy": 56.27565854, 
+            "population": 7819806, 
+            "unemployment": 10.30000019
+        }, 
+        "356": {
+            "emigrants": 34748, 
+            "gdppc": 377.0, 
+            "life_expectancy": 60.44436585, 
+            "population": 960874982, 
+            "unemployment": 4.0
+        }, 
+        "364": {
+            "emigrants": 9201, 
+            "gdppc": 1896.0, 
+            "life_expectancy": 68.30592683, 
+            "population": 60318632, 
+            "unemployment": 11.89999962
+        }, 
+        "388": {
+            "emigrants": 16398, 
+            "gdppc": 2629.0, 
+            "life_expectancy": 71.94239024, 
+            "population": 2480000, 
+            "unemployment": 16.20000076
+        }, 
+        "484": {
+            "emigrants": 89932, 
+            "gdppc": 3384.0, 
+            "life_expectancy": 72.73978049, 
+            "population": 94426946, 
+            "unemployment": 6.900000095
+        }, 
+        "566": {
+            "emigrants": 6818, 
+            "gdppc": 452.0, 
+            "life_expectancy": 46.11407317, 
+            "population": 108424822, 
+            "unemployment": 7.5
+        }, 
+        "586": {
+            "emigrants": 9774, 
+            "gdppc": 630.0, 
+            "life_expectancy": 61.48529268, 
+            "population": 122599749, 
+            "unemployment": 5.0
+        }, 
+        "604": {
+            "emigrants": 8066, 
+            "gdppc": 2155.0, 
+            "life_expectancy": 68.01543902, 
+            "population": 24038761, 
+            "unemployment": 5.5
+        }, 
+        "608": {
+            "emigrants": 50984, 
+            "gdppc": 1176.0, 
+            "life_expectancy": 66.07056098, 
+            "population": 69835713, 
+            "unemployment": 8.399999619
+        }, 
+        "616": {
+            "emigrants": 13824, 
+            "gdppc": 3683.0, 
+            "life_expectancy": 71.89268293, 
+            "population": 38594998, 
+            "unemployment": 13.30000019
+        }, 
+        "643": {
+            "emigrants": 14560, 
+            "gdppc": 2694.0, 
+            "life_expectancy": 65.22121951, 
+            "population": 148375726, 
+            "unemployment": 9.399999619
+        }, 
+        "410": {
+            "emigrants": 16047, 
+            "gdppc": 12454.0, 
+            "life_expectancy": 73.39439024, 
+            "population": 45092991, 
+            "unemployment": 2.099999905
+        }, 
+        "804": {
+            "emigrants": 17432, 
+            "gdppc": 991.0, 
+            "life_expectancy": 67.13707317, 
+            "population": 51512299, 
+            "unemployment": 5.599999905
+        }, 
+        "826": {
+            "emigrants": 12427, 
+            "gdppc": 21374.0, 
+            "life_expectancy": 76.83658537, 
+            "population": 58019030, 
+            "unemployment": 8.699999809
+        }, 
+        "704": {
+            "emigrants": 41752, 
+            "gdppc": 276.0, 
+            "life_expectancy": 71.85221951, 
+            "population": 71995500, 
+            "unemployment": 2.099999905
+        }
+    }, 
+    "1996": {
+        "124": {
+            "emigrants": 15800, 
+            "gdppc": 21188.0, 
+            "life_expectancy": 78.2304878, 
+            "population": 29671900, 
+            "unemployment": 9.600000381
+        }, 
+        "156": {
+            "emigrants": 41720, 
+            "gdppc": 698.0, 
+            "life_expectancy": 70.19982927, 
+            "population": 1217550000, 
+            "unemployment": 4.599999905
+        }, 
+        "170": {
+            "emigrants": 14275, 
+            "gdppc": 3044.0, 
+            "life_expectancy": 69.74836585, 
+            "population": 38049040, 
+            "unemployment": 13.69999981
+        }, 
+        "192": {
+            "emigrants": 26438, 
+            "gdppc": 2284.0, 
+            "life_expectancy": 75.67563415, 
+            "population": 10955372, 
+            "unemployment": 7.599999905
+        }, 
+        "214": {
+            "emigrants": 39599, 
+            "gdppc": 2255.0, 
+            "life_expectancy": 69.91634146, 
+            "population": 8029114, 
+            "unemployment": 16.70000076
+        }, 
+        "218": {
+            "emigrants": 8319, 
+            "gdppc": 2048.0, 
+            "life_expectancy": 71.60473171, 
+            "population": 11683480, 
+            "unemployment": 4.699999809
+        }, 
+        "222": {
+            "emigrants": 17902, 
+            "gdppc": 1828.0, 
+            "life_expectancy": 67.56482927, 
+            "population": 5643363, 
+            "unemployment": 7.699999809
+        }, 
+        "276": {
+            "emigrants": 6743, 
+            "gdppc": 30582.0, 
+            "life_expectancy": 76.67317073, 
+            "population": 81914831, 
+            "unemployment": 8.899999619
+        }, 
+        "320": {
+            "emigrants": 8762, 
+            "gdppc": 1326.0, 
+            "life_expectancy": 65.52721951, 
+            "population": 10612300, 
+            "unemployment": 3.5
+        }, 
+        "328": {
+            "emigrants": 9489, 
+            "gdppc": 1541.0, 
+            "life_expectancy": 64.37946341, 
+            "population": 730193, 
+            "unemployment": 11.69999981
+        }, 
+        "332": {
+            "emigrants": 18383, 
+            "gdppc": 373.0, 
+            "life_expectancy": 56.59495122, 
+            "population": 7965548, 
+            "unemployment": 10.80000019
+        }, 
+        "356": {
+            "emigrants": 44838, 
+            "gdppc": 390.0, 
+            "life_expectancy": 60.91560976, 
+            "population": 979290432, 
+            "unemployment": 4.0
+        }, 
+        "364": {
+            "emigrants": 11084, 
+            "gdppc": 2011.0, 
+            "life_expectancy": 68.72214634, 
+            "population": 61306632, 
+            "unemployment": 13.10000038
+        }, 
+        "388": {
+            "emigrants": 19084, 
+            "gdppc": 2933.0, 
+            "life_expectancy": 71.96819512, 
+            "population": 2509923, 
+            "unemployment": 16.0
+        }, 
+        "484": {
+            "emigrants": 163556, 
+            "gdppc": 3858.0, 
+            "life_expectancy": 73.09890244, 
+            "population": 96181710, 
+            "unemployment": 5.199999809
+        }, 
+        "566": {
+            "emigrants": 10219, 
+            "gdppc": 468.0, 
+            "life_expectancy": 46.15978049, 
+            "population": 111164651, 
+            "unemployment": 7.5
+        }, 
+        "586": {
+            "emigrants": 12516, 
+            "gdppc": 613.0, 
+            "life_expectancy": 61.74795122, 
+            "population": 125697651, 
+            "unemployment": 5.300000191
+        }, 
+        "604": {
+            "emigrants": 12869, 
+            "gdppc": 2206.0, 
+            "life_expectancy": 68.5237561, 
+            "population": 24441076, 
+            "unemployment": 6.5
+        }, 
+        "608": {
+            "emigrants": 55868, 
+            "gdppc": 1285.0, 
+            "life_expectancy": 66.1977561, 
+            "population": 71437381, 
+            "unemployment": 7.400000095
+        }, 
+        "616": {
+            "emigrants": 15766, 
+            "gdppc": 4144.0, 
+            "life_expectancy": 72.24634146, 
+            "population": 38624370, 
+            "unemployment": 12.39999962
+        }, 
+        "643": {
+            "emigrants": 19656, 
+            "gdppc": 2648.0, 
+            "life_expectancy": 66.19414634, 
+            "population": 148160042, 
+            "unemployment": 9.699999809
+        }, 
+        "410": {
+            "emigrants": 18179, 
+            "gdppc": 13301.0, 
+            "life_expectancy": 73.83121951, 
+            "population": 45524681, 
+            "unemployment": 2.0
+        }, 
+        "804": {
+            "emigrants": 21072, 
+            "gdppc": 914.0, 
+            "life_expectancy": 66.88780488, 
+            "population": 51057189, 
+            "unemployment": 7.599999905
+        }, 
+        "826": {
+            "emigrants": 13607, 
+            "gdppc": 22498.0, 
+            "life_expectancy": 77.08780488, 
+            "population": 58166950, 
+            "unemployment": 8.300000191
+        }, 
+        "704": {
+            "emigrants": 42053, 
+            "gdppc": 323.0, 
+            "life_expectancy": 72.13156098, 
+            "population": 73156700, 
+            "unemployment": 1.899999976
+        }
+    }, 
+    "1997": {
+        "124": {
+            "emigrants": 11583, 
+            "gdppc": 21793.0, 
+            "life_expectancy": 78.4804878, 
+            "population": 29987200, 
+            "unemployment": 9.100000381
+        }, 
+        "156": {
+            "emigrants": 41128, 
+            "gdppc": 771.0, 
+            "life_expectancy": 70.52268293, 
+            "population": 1230075000, 
+            "unemployment": 4.599999905
+        }, 
+        "170": {
+            "emigrants": 12993, 
+            "gdppc": 3291.0, 
+            "life_expectancy": 70.075, 
+            "population": 38645409, 
+            "unemployment": 11.60000038
+        }, 
+        "192": {
+            "emigrants": 33524, 
+            "gdppc": 2306.0, 
+            "life_expectancy": 75.94197561, 
+            "population": 11000431, 
+            "unemployment": 7.099999905
+        }, 
+        "214": {
+            "emigrants": 27047, 
+            "gdppc": 2514.0, 
+            "life_expectancy": 70.09173171, 
+            "population": 8163474, 
+            "unemployment": 15.60000038
+        }, 
+        "218": {
+            "emigrants": 7779, 
+            "gdppc": 2230.0, 
+            "life_expectancy": 71.96431707, 
+            "population": 11924991, 
+            "unemployment": 7.5
+        }, 
+        "222": {
+            "emigrants": 17955, 
+            "gdppc": 1956.0, 
+            "life_expectancy": 67.87363415, 
+            "population": 5692300, 
+            "unemployment": 8.0
+        }, 
+        "276": {
+            "emigrants": 5714, 
+            "gdppc": 27059.0, 
+            "life_expectancy": 77.07317073, 
+            "population": 82034771, 
+            "unemployment": 9.800000191
+        }, 
+        "320": {
+            "emigrants": 7780, 
+            "gdppc": 1458.0, 
+            "life_expectancy": 66.09590244, 
+            "population": 10871786, 
+            "unemployment": 3.900000095
+        }, 
+        "328": {
+            "emigrants": 7253, 
+            "gdppc": 1628.0, 
+            "life_expectancy": 64.53280488, 
+            "population": 733854, 
+            "unemployment": 11.60000038
+        }, 
+        "332": {
+            "emigrants": 15053, 
+            "gdppc": 400.0, 
+            "life_expectancy": 56.89290244, 
+            "population": 8111954, 
+            "unemployment": 10.89999962
+        }, 
+        "356": {
+            "emigrants": 38048, 
+            "gdppc": 415.0, 
+            "life_expectancy": 61.36956098, 
+            "population": 997817250, 
+            "unemployment": 4.199999809
+        }, 
+        "364": {
+            "emigrants": 9635, 
+            "gdppc": 1825.0, 
+            "life_expectancy": 69.07631707, 
+            "population": 62426086, 
+            "unemployment": 11.5
+        }, 
+        "388": {
+            "emigrants": 17833, 
+            "gdppc": 3318.0, 
+            "life_expectancy": 72.01570732, 
+            "population": 2534069, 
+            "unemployment": 16.5
+        }, 
+        "484": {
+            "emigrants": 146833, 
+            "gdppc": 4571.0, 
+            "life_expectancy": 73.43714634, 
+            "population": 97925825, 
+            "unemployment": 4.099999905
+        }, 
+        "566": {
+            "emigrants": 7031, 
+            "gdppc": 477.0, 
+            "life_expectancy": 46.2245122, 
+            "population": 113975055, 
+            "unemployment": 7.5
+        }, 
+        "586": {
+            "emigrants": 12959, 
+            "gdppc": 601.0, 
+            "life_expectancy": 62.00856098, 
+            "population": 128845692, 
+            "unemployment": 5.800000191
+        }, 
+        "604": {
+            "emigrants": 10843, 
+            "gdppc": 2299.0, 
+            "life_expectancy": 69.03253659, 
+            "population": 24827409, 
+            "unemployment": 5.300000191
+        }, 
+        "608": {
+            "emigrants": 49102, 
+            "gdppc": 1249.0, 
+            "life_expectancy": 66.32146341, 
+            "population": 73042605, 
+            "unemployment": 7.900000095
+        }, 
+        "616": {
+            "emigrants": 12035, 
+            "gdppc": 4124.0, 
+            "life_expectancy": 72.64634146, 
+            "population": 38649660, 
+            "unemployment": 11.19999981
+        }, 
+        "643": {
+            "emigrants": 16622, 
+            "gdppc": 2740.0, 
+            "life_expectancy": 66.95073171, 
+            "population": 147915307, 
+            "unemployment": 11.80000019
+        }, 
+        "410": {
+            "emigrants": 14226, 
+            "gdppc": 12311.0, 
+            "life_expectancy": 74.24780488, 
+            "population": 45953580, 
+            "unemployment": 2.599999905
+        }, 
+        "804": {
+            "emigrants": 15691, 
+            "gdppc": 1037.0, 
+            "life_expectancy": 67.29536585, 
+            "population": 50594105, 
+            "unemployment": 8.899999619
+        }, 
+        "826": {
+            "emigrants": 10679, 
+            "gdppc": 24824.0, 
+            "life_expectancy": 77.21097561, 
+            "population": 58316954, 
+            "unemployment": 7.199999809
+        }, 
+        "704": {
+            "emigrants": 38511, 
+            "gdppc": 347.0, 
+            "life_expectancy": 72.4035122, 
+            "population": 74306900, 
+            "unemployment": 2.900000095
+        }
+    }, 
+    "1998": {
+        "124": {
+            "emigrants": 10130, 
+            "gdppc": 20947.0, 
+            "life_expectancy": 78.66243902, 
+            "population": 30247900, 
+            "unemployment": 8.300000191
+        }, 
+        "156": {
+            "emigrants": 36854, 
+            "gdppc": 820.0, 
+            "life_expectancy": 70.89046341, 
+            "population": 1241935000, 
+            "unemployment": 4.699999809
+        }, 
+        "170": {
+            "emigrants": 11801, 
+            "gdppc": 2994.0, 
+            "life_expectancy": 70.39495122, 
+            "population": 39234059, 
+            "unemployment": 13.10000038
+        }, 
+        "192": {
+            "emigrants": 17304, 
+            "gdppc": 2331.0, 
+            "life_expectancy": 76.19307317, 
+            "population": 11041893, 
+            "unemployment": 6.199999809
+        }, 
+        "214": {
+            "emigrants": 20355, 
+            "gdppc": 2622.0, 
+            "life_expectancy": 70.26365854, 
+            "population": 8296375, 
+            "unemployment": 14.39999962
+        }, 
+        "218": {
+            "emigrants": 6843, 
+            "gdppc": 2151.0, 
+            "life_expectancy": 72.30814634, 
+            "population": 12163887, 
+            "unemployment": 5.5
+        }, 
+        "222": {
+            "emigrants": 14577, 
+            "gdppc": 2093.0, 
+            "life_expectancy": 68.15780488, 
+            "population": 5736075, 
+            "unemployment": 7.300000191
+        }, 
+        "276": {
+            "emigrants": 5440, 
+            "gdppc": 27353.0, 
+            "life_expectancy": 77.47560976, 
+            "population": 82047195, 
+            "unemployment": 9.199999809
+        }, 
+        "320": {
+            "emigrants": 7747, 
+            "gdppc": 1553.0, 
+            "life_expectancy": 66.66156098, 
+            "population": 11136814, 
+            "unemployment": 3.200000048
+        }, 
+        "328": {
+            "emigrants": 3960, 
+            "gdppc": 1552.0, 
+            "life_expectancy": 64.68463415, 
+            "population": 737316, 
+            "unemployment": 11.5
+        }, 
+        "332": {
+            "emigrants": 13434, 
+            "gdppc": 455.0, 
+            "life_expectancy": 57.16902439, 
+            "population": 8258484, 
+            "unemployment": 10.89999962
+        }, 
+        "356": {
+            "emigrants": 36414, 
+            "gdppc": 410.0, 
+            "life_expectancy": 61.80721951, 
+            "population": 1016402907, 
+            "unemployment": 4.099999905
+        }, 
+        "364": {
+            "emigrants": 7873, 
+            "gdppc": 1733.0, 
+            "life_expectancy": 69.41556098, 
+            "population": 63616065, 
+            "unemployment": 12.10000038
+        }, 
+        "388": {
+            "emigrants": 15123, 
+            "gdppc": 3417.0, 
+            "life_expectancy": 72.08685366, 
+            "population": 2556780, 
+            "unemployment": 15.5
+        }, 
+        "484": {
+            "emigrants": 131353, 
+            "gdppc": 4719.0, 
+            "life_expectancy": 73.75141463, 
+            "population": 99632299, 
+            "unemployment": 3.599999905
+        }, 
+        "566": {
+            "emigrants": 7730, 
+            "gdppc": 484.0, 
+            "life_expectancy": 46.31565854, 
+            "population": 116860691, 
+            "unemployment": 7.5
+        }, 
+        "586": {
+            "emigrants": 13083, 
+            "gdppc": 590.0, 
+            "life_expectancy": 62.26760976, 
+            "population": 132013680, 
+            "unemployment": 5.699999809
+        }, 
+        "604": {
+            "emigrants": 10141, 
+            "gdppc": 2174.0, 
+            "life_expectancy": 69.53680488, 
+            "population": 25199744, 
+            "unemployment": 4.900000095
+        }, 
+        "608": {
+            "emigrants": 34416, 
+            "gdppc": 967.0, 
+            "life_expectancy": 66.44217073, 
+            "population": 74656228, 
+            "unemployment": 9.399999619
+        }, 
+        "616": {
+            "emigrants": 8451, 
+            "gdppc": 4524.0, 
+            "life_expectancy": 72.99756098, 
+            "population": 38663481, 
+            "unemployment": 10.69999981
+        }, 
+        "643": {
+            "emigrants": 11517, 
+            "gdppc": 1838.0, 
+            "life_expectancy": 66.78390244, 
+            "population": 147670692, 
+            "unemployment": 13.30000019
+        }, 
+        "410": {
+            "emigrants": 14222, 
+            "gdppc": 8207.0, 
+            "life_expectancy": 74.6802439, 
+            "population": 46286503, 
+            "unemployment": 7.0
+        }, 
+        "804": {
+            "emigrants": 7444, 
+            "gdppc": 874.0, 
+            "life_expectancy": 67.98878049, 
+            "population": 50143939, 
+            "unemployment": 11.30000019
+        }, 
+        "826": {
+            "emigrants": 8976, 
+            "gdppc": 26294.0, 
+            "life_expectancy": 77.1902439, 
+            "population": 58487141, 
+            "unemployment": 6.199999809
+        }, 
+        "704": {
+            "emigrants": 17635, 
+            "gdppc": 347.0, 
+            "life_expectancy": 72.6645122, 
+            "population": 75456300, 
+            "unemployment": 2.299999952
+        }
+    }, 
+    "1999": {
+        "124": {
+            "emigrants": 8782, 
+            "gdppc": 22167.0, 
+            "life_expectancy": 78.88292683, 
+            "population": 30499200, 
+            "unemployment": 7.599999905
+        }, 
+        "156": {
+            "emigrants": 32159, 
+            "gdppc": 865.0, 
+            "life_expectancy": 71.29712195, 
+            "population": 1252735000, 
+            "unemployment": 4.699999809
+        }, 
+        "170": {
+            "emigrants": 9928, 
+            "gdppc": 2584.0, 
+            "life_expectancy": 70.70056098, 
+            "population": 39819279, 
+            "unemployment": 14.80000019
+        }, 
+        "192": {
+            "emigrants": 14019, 
+            "gdppc": 2560.0, 
+            "life_expectancy": 76.42587805, 
+            "population": 11080506, 
+            "unemployment": 6.300000191
+        }, 
+        "214": {
+            "emigrants": 17811, 
+            "gdppc": 2713.0, 
+            "life_expectancy": 70.44214634, 
+            "population": 8429116, 
+            "unemployment": 13.80000019
+        }, 
+        "218": {
+            "emigrants": 8882, 
+            "gdppc": 1533.0, 
+            "life_expectancy": 72.6352439, 
+            "population": 12398691, 
+            "unemployment": 6.300000191
+        }, 
+        "222": {
+            "emigrants": 14581, 
+            "gdppc": 2158.0, 
+            "life_expectancy": 68.43541463, 
+            "population": 5775660, 
+            "unemployment": 7.0
+        }, 
+        "276": {
+            "emigrants": 5166, 
+            "gdppc": 26839.0, 
+            "life_expectancy": 77.72682927, 
+            "population": 82100243, 
+            "unemployment": 8.399999619
+        }, 
+        "320": {
+            "emigrants": 7294, 
+            "gdppc": 1431.0, 
+            "life_expectancy": 67.21519512, 
+            "population": 11408815, 
+            "unemployment": 1.899999976
+        }, 
+        "328": {
+            "emigrants": 3290, 
+            "gdppc": 1497.0, 
+            "life_expectancy": 64.83192683, 
+            "population": 740189, 
+            "unemployment": 11.5
+        }, 
+        "332": {
+            "emigrants": 16514, 
+            "gdppc": 486.0, 
+            "life_expectancy": 57.42626829, 
+            "population": 8404396, 
+            "unemployment": 7.199999809
+        }, 
+        "356": {
+            "emigrants": 30157, 
+            "gdppc": 429.0, 
+            "life_expectancy": 62.22707317, 
+            "population": 1034976626, 
+            "unemployment": 4.400000095
+        }, 
+        "364": {
+            "emigrants": 7176, 
+            "gdppc": 1757.0, 
+            "life_expectancy": 69.76595122, 
+            "population": 64780362, 
+            "unemployment": 11.30000019
+        }, 
+        "388": {
+            "emigrants": 14693, 
+            "gdppc": 3423.0, 
+            "life_expectancy": 72.18465854, 
+            "population": 2574289, 
+            "unemployment": 15.69999981
+        }, 
+        "484": {
+            "emigrants": 147402, 
+            "gdppc": 5300.0, 
+            "life_expectancy": 74.0392439, 
+            "population": 101266570, 
+            "unemployment": 2.5
+        }, 
+        "566": {
+            "emigrants": 6742, 
+            "gdppc": 481.0, 
+            "life_expectancy": 46.44268293, 
+            "population": 119826231, 
+            "unemployment": 7.5
+        }, 
+        "586": {
+            "emigrants": 13485, 
+            "gdppc": 575.0, 
+            "life_expectancy": 62.52314634, 
+            "population": 135158132, 
+            "unemployment": 6.099999905
+        }, 
+        "604": {
+            "emigrants": 8414, 
+            "gdppc": 1947.0, 
+            "life_expectancy": 70.03009756, 
+            "population": 25561297, 
+            "unemployment": 6.300000191
+        }, 
+        "608": {
+            "emigrants": 30943, 
+            "gdppc": 1088.0, 
+            "life_expectancy": 66.56190244, 
+            "population": 76285225, 
+            "unemployment": 9.399999619
+        }, 
+        "616": {
+            "emigrants": 8773, 
+            "gdppc": 4406.0, 
+            "life_expectancy": 73.04390244, 
+            "population": 38660271, 
+            "unemployment": 12.5
+        }, 
+        "643": {
+            "emigrants": 12321, 
+            "gdppc": 1333.0, 
+            "life_expectancy": 66.04365854, 
+            "population": 147214392, 
+            "unemployment": 13.0
+        }, 
+        "410": {
+            "emigrants": 12795, 
+            "gdppc": 10570.0, 
+            "life_expectancy": 75.37341463, 
+            "population": 46616677, 
+            "unemployment": 6.300000191
+        }, 
+        "804": {
+            "emigrants": 10102, 
+            "gdppc": 665.0, 
+            "life_expectancy": 68.21341463, 
+            "population": 49673350, 
+            "unemployment": 11.60000038
+        }, 
+        "826": {
+            "emigrants": 7647, 
+            "gdppc": 26689.0, 
+            "life_expectancy": 77.3902439, 
+            "population": 58682466, 
+            "unemployment": 6.0
+        }, 
+        "704": {
+            "emigrants": 20335, 
+            "gdppc": 361.0, 
+            "life_expectancy": 72.91353659, 
+            "population": 76596700, 
+            "unemployment": 2.299999952
+        }
+    }, 
+    "2000": {
+        "124": {
+            "emigrants": 16057, 
+            "gdppc": 24085.0, 
+            "life_expectancy": 79.23658537, 
+            "population": 30769700, 
+            "unemployment": 6.800000191
+        }, 
+        "156": {
+            "emigrants": 45585, 
+            "gdppc": 952.0, 
+            "life_expectancy": 71.73046341, 
+            "population": 1262645000, 
+            "unemployment": 4.5
+        }, 
+        "170": {
+            "emigrants": 14427, 
+            "gdppc": 2472.0, 
+            "life_expectancy": 70.98870732, 
+            "population": 40403959, 
+            "unemployment": 16.60000038
+        }, 
+        "192": {
+            "emigrants": 18960, 
+            "gdppc": 2750.0, 
+            "life_expectancy": 76.64480488, 
+            "population": 11116787, 
+            "unemployment": 5.400000095
+        }, 
+        "214": {
+            "emigrants": 17465, 
+            "gdppc": 2947.0, 
+            "life_expectancy": 70.63373171, 
+            "population": 8562623, 
+            "unemployment": 14.19999981
+        }, 
+        "218": {
+            "emigrants": 7651, 
+            "gdppc": 1451.0, 
+            "life_expectancy": 72.94417073, 
+            "population": 12628596, 
+            "unemployment": 7.199999809
+        }, 
+        "222": {
+            "emigrants": 22543, 
+            "gdppc": 2260.0, 
+            "life_expectancy": 68.71704878, 
+            "population": 5811836, 
+            "unemployment": 7.0
+        }, 
+        "276": {
+            "emigrants": 7565, 
+            "gdppc": 23810.0, 
+            "life_expectancy": 77.92682927, 
+            "population": 82211508, 
+            "unemployment": 7.699999809
+        }, 
+        "320": {
+            "emigrants": 9942, 
+            "gdppc": 1471.0, 
+            "life_expectancy": 67.74270732, 
+            "population": 11688660, 
+            "unemployment": 1.399999976
+        }, 
+        "328": {
+            "emigrants": 5719, 
+            "gdppc": 1531.0, 
+            "life_expectancy": 64.97314634, 
+            "population": 742218, 
+            "unemployment": 11.5
+        }, 
+        "332": {
+            "emigrants": 22337, 
+            "gdppc": 429.0, 
+            "life_expectancy": 57.67604878, 
+            "population": 8549202, 
+            "unemployment": 7.400000095
+        }, 
+        "356": {
+            "emigrants": 41903, 
+            "gdppc": 435.0, 
+            "life_expectancy": 62.63063415, 
+            "population": 1053481072, 
+            "unemployment": 4.300000191
+        }, 
+        "364": {
+            "emigrants": 8487, 
+            "gdppc": 1664.0, 
+            "life_expectancy": 70.13719512, 
+            "population": 65850062, 
+            "unemployment": 12.0
+        }, 
+        "388": {
+            "emigrants": 15949, 
+            "gdppc": 3463.0, 
+            "life_expectancy": 72.31317073, 
+            "population": 2589389, 
+            "unemployment": 15.5
+        }, 
+        "484": {
+            "emigrants": 173493, 
+            "gdppc": 6308.0, 
+            "life_expectancy": 74.29973171, 
+            "population": 102808590, 
+            "unemployment": 2.599999905
+        }, 
+        "566": {
+            "emigrants": 7831, 
+            "gdppc": 607.0, 
+            "life_expectancy": 46.624, 
+            "population": 122876723, 
+            "unemployment": 7.599999905
+        }, 
+        "586": {
+            "emigrants": 14504, 
+            "gdppc": 556.0, 
+            "life_expectancy": 62.77317073, 
+            "population": 138250487, 
+            "unemployment": 7.199999809
+        }, 
+        "604": {
+            "emigrants": 9579, 
+            "gdppc": 1986.0, 
+            "life_expectancy": 70.50743902, 
+            "population": 25914875, 
+            "unemployment": 6.400000095
+        }, 
+        "608": {
+            "emigrants": 42343, 
+            "gdppc": 1040.0, 
+            "life_expectancy": 66.68212195, 
+            "population": 77932247, 
+            "unemployment": 11.19999981
+        }, 
+        "616": {
+            "emigrants": 10090, 
+            "gdppc": 4466.0, 
+            "life_expectancy": 73.74878049, 
+            "population": 38258629, 
+            "unemployment": 16.10000038
+        }, 
+        "643": {
+            "emigrants": 16940, 
+            "gdppc": 1774.0, 
+            "life_expectancy": 65.34146341, 
+            "population": 146596557, 
+            "unemployment": 10.60000038
+        }, 
+        "410": {
+            "emigrants": 15721, 
+            "gdppc": 12155.0, 
+            "life_expectancy": 75.83536585, 
+            "population": 47008111, 
+            "unemployment": 4.400000095
+        }, 
+        "804": {
+            "emigrants": 15511, 
+            "gdppc": 664.0, 
+            "life_expectancy": 67.8595122, 
+            "population": 49175848, 
+            "unemployment": 11.60000038
+        }, 
+        "826": {
+            "emigrants": 13273, 
+            "gdppc": 26411.0, 
+            "life_expectancy": 77.74146341, 
+            "population": 58892514, 
+            "unemployment": 5.599999905
+        }, 
+        "704": {
+            "emigrants": 26553, 
+            "gdppc": 388.0, 
+            "life_expectancy": 73.14858537, 
+            "population": 77630900, 
+            "unemployment": 2.299999952
+        }
+    }, 
+    "2001": {
+        "124": {
+            "emigrants": 21752, 
+            "gdppc": 23643.0, 
+            "life_expectancy": 79.48780488, 
+            "population": 31081900, 
+            "unemployment": 7.199999809
+        }, 
+        "156": {
+            "emigrants": 56267, 
+            "gdppc": 1047.0, 
+            "life_expectancy": 72.17578049, 
+            "population": 1271850000, 
+            "unemployment": 4.5
+        }, 
+        "170": {
+            "emigrants": 16627, 
+            "gdppc": 2396.0, 
+            "life_expectancy": 71.26039024, 
+            "population": 40988909, 
+            "unemployment": 15.10000038
+        }, 
+        "192": {
+            "emigrants": 27453, 
+            "gdppc": 2841.0, 
+            "life_expectancy": 76.86521951, 
+            "population": 11151472, 
+            "unemployment": 4.099999905
+        }, 
+        "214": {
+            "emigrants": 21195, 
+            "gdppc": 3007.0, 
+            "life_expectancy": 70.83892683, 
+            "population": 8697127, 
+            "unemployment": 15.69999981
+        }, 
+        "218": {
+            "emigrants": 9665, 
+            "gdppc": 1904.0, 
+            "life_expectancy": 73.23043902, 
+            "population": 12852753, 
+            "unemployment": 8.399999619
+        }, 
+        "222": {
+            "emigrants": 31089, 
+            "gdppc": 2363.0, 
+            "life_expectancy": 69.00570732, 
+            "population": 5844738, 
+            "unemployment": 7.0
+        }, 
+        "276": {
+            "emigrants": 9790, 
+            "gdppc": 23844.0, 
+            "life_expectancy": 78.32926829, 
+            "population": 82349925, 
+            "unemployment": 7.800000191
+        }, 
+        "320": {
+            "emigrants": 13496, 
+            "gdppc": 1562.0, 
+            "life_expectancy": 68.2274878, 
+            "population": 11976725, 
+            "unemployment": 1.299999952
+        }, 
+        "328": {
+            "emigrants": 8279, 
+            "gdppc": 1528.0, 
+            "life_expectancy": 65.1077561, 
+            "population": 743163, 
+            "unemployment": 11.69999981
+        }, 
+        "332": {
+            "emigrants": 27031, 
+            "gdppc": 404.0, 
+            "life_expectancy": 57.92978049, 
+            "population": 8692564, 
+            "unemployment": 7.599999905
+        }, 
+        "356": {
+            "emigrants": 70032, 
+            "gdppc": 442.0, 
+            "life_expectancy": 63.01985366, 
+            "population": 1071888190, 
+            "unemployment": 4.0
+        }, 
+        "364": {
+            "emigrants": 10425, 
+            "gdppc": 1793.0, 
+            "life_expectancy": 70.52165854, 
+            "population": 66812736, 
+            "unemployment": 12.80000019
+        }, 
+        "388": {
+            "emigrants": 15322, 
+            "gdppc": 3512.0, 
+            "life_expectancy": 72.47695122, 
+            "population": 2605556, 
+            "unemployment": 15.0
+        }, 
+        "484": {
+            "emigrants": 205560, 
+            "gdppc": 6662.0, 
+            "life_expectancy": 74.5334878, 
+            "population": 104239563, 
+            "unemployment": 2.5
+        }, 
+        "566": {
+            "emigrants": 8253, 
+            "gdppc": 563.0, 
+            "life_expectancy": 46.88117073, 
+            "population": 126014935, 
+            "unemployment": 7.599999905
+        }, 
+        "586": {
+            "emigrants": 16393, 
+            "gdppc": 519.0, 
+            "life_expectancy": 63.01370732, 
+            "population": 141282077, 
+            "unemployment": 7.400000095
+        }, 
+        "604": {
+            "emigrants": 11062, 
+            "gdppc": 1983.0, 
+            "life_expectancy": 70.95987805, 
+            "population": 26261363, 
+            "unemployment": 5.099999905
+        }, 
+        "608": {
+            "emigrants": 52919, 
+            "gdppc": 958.0, 
+            "life_expectancy": 66.80239024, 
+            "population": 79604541, 
+            "unemployment": 11.0
+        }, 
+        "616": {
+            "emigrants": 11769, 
+            "gdppc": 4953.0, 
+            "life_expectancy": 74.2, 
+            "population": 38248076, 
+            "unemployment": 18.20000076
+        }, 
+        "643": {
+            "emigrants": 20313, 
+            "gdppc": 2103.0, 
+            "life_expectancy": 65.48780488, 
+            "population": 145976083, 
+            "unemployment": 9.0
+        }, 
+        "410": {
+            "emigrants": 20532, 
+            "gdppc": 11465.0, 
+            "life_expectancy": 76.34195122, 
+            "population": 47357362, 
+            "unemployment": 4.0
+        }, 
+        "804": {
+            "emigrants": 20914, 
+            "gdppc": 814.0, 
+            "life_expectancy": 68.28707317, 
+            "population": 48683865, 
+            "unemployment": 10.89999962
+        }, 
+        "826": {
+            "emigrants": 18278, 
+            "gdppc": 25999.0, 
+            "life_expectancy": 77.99268293, 
+            "population": 59119673, 
+            "unemployment": 4.800000191
+        }, 
+        "704": {
+            "emigrants": 35419, 
+            "gdppc": 403.0, 
+            "life_expectancy": 73.36958537, 
+            "population": 78620500, 
+            "unemployment": 2.799999952
+        }
+    }, 
+    "2002": {
+        "124": {
+            "emigrants": 19352, 
+            "gdppc": 24051.0, 
+            "life_expectancy": 79.5902439, 
+            "population": 31362000, 
+            "unemployment": 7.699999809
+        }, 
+        "156": {
+            "emigrants": 61082, 
+            "gdppc": 1144.0, 
+            "life_expectancy": 72.61487805, 
+            "population": 1280400000, 
+            "unemployment": 4.400000095
+        }, 
+        "170": {
+            "emigrants": 18758, 
+            "gdppc": 2356.0, 
+            "life_expectancy": 71.52173171, 
+            "population": 41572493, 
+            "unemployment": 15.80000019
+        }, 
+        "192": {
+            "emigrants": 28182, 
+            "gdppc": 3003.0, 
+            "life_expectancy": 77.10246341, 
+            "population": 11184540, 
+            "unemployment": 3.299999952
+        }, 
+        "214": {
+            "emigrants": 22515, 
+            "gdppc": 3009.0, 
+            "life_expectancy": 71.05180488, 
+            "population": 8832286, 
+            "unemployment": 16.10000038
+        }, 
+        "218": {
+            "emigrants": 10561, 
+            "gdppc": 2184.0, 
+            "life_expectancy": 73.492, 
+            "population": 13072056, 
+            "unemployment": 9.100000381
+        }, 
+        "222": {
+            "emigrants": 31060, 
+            "gdppc": 2435.0, 
+            "life_expectancy": 69.29787805, 
+            "population": 5874301, 
+            "unemployment": 6.199999809
+        }, 
+        "276": {
+            "emigrants": 8888, 
+            "gdppc": 25450.0, 
+            "life_expectancy": 78.22926829, 
+            "population": 82488495, 
+            "unemployment": 8.600000381
+        }, 
+        "320": {
+            "emigrants": 16178, 
+            "gdppc": 1693.0, 
+            "life_expectancy": 68.66136585, 
+            "population": 12272208, 
+            "unemployment": 3.099999905
+        }, 
+        "328": {
+            "emigrants": 9938, 
+            "gdppc": 1558.0, 
+            "life_expectancy": 65.23529268, 
+            "population": 743107, 
+            "unemployment": 11.89999962
+        }, 
+        "332": {
+            "emigrants": 20213, 
+            "gdppc": 364.0, 
+            "life_expectancy": 58.19936585, 
+            "population": 8834739, 
+            "unemployment": 7.599999905
+        }, 
+        "356": {
+            "emigrants": 70823, 
+            "gdppc": 454.0, 
+            "life_expectancy": 63.39919512, 
+            "population": 1090189358, 
+            "unemployment": 4.300000191
+        }, 
+        "364": {
+            "emigrants": 12960, 
+            "gdppc": 2189.0, 
+            "life_expectancy": 70.89843902, 
+            "population": 67696677, 
+            "unemployment": 12.80000019
+        }, 
+        "388": {
+            "emigrants": 14835, 
+            "gdppc": 3689.0, 
+            "life_expectancy": 72.67502439, 
+            "population": 2615253, 
+            "unemployment": 14.30000019
+        }, 
+        "484": {
+            "emigrants": 218822, 
+            "gdppc": 6860.0, 
+            "life_expectancy": 74.74470732, 
+            "population": 105578297, 
+            "unemployment": 2.900000095
+        }, 
+        "566": {
+            "emigrants": 8105, 
+            "gdppc": 736.0, 
+            "life_expectancy": 47.21973171, 
+            "population": 129246283, 
+            "unemployment": 7.699999809
+        }, 
+        "586": {
+            "emigrants": 13694, 
+            "gdppc": 557.0, 
+            "life_expectancy": 63.2407561, 
+            "population": 144271586, 
+            "unemployment": 7.800000191
+        }, 
+        "604": {
+            "emigrants": 11918, 
+            "gdppc": 2060.0, 
+            "life_expectancy": 71.38387805, 
+            "population": 26601463, 
+            "unemployment": 5.699999809
+        }, 
+        "608": {
+            "emigrants": 51040, 
+            "gdppc": 1001.0, 
+            "life_expectancy": 66.92165854, 
+            "population": 81294378, 
+            "unemployment": 11.5
+        }, 
+        "616": {
+            "emigrants": 12711, 
+            "gdppc": 5167.0, 
+            "life_expectancy": 74.49756098, 
+            "population": 38230364, 
+            "unemployment": 19.89999962
+        }, 
+        "643": {
+            "emigrants": 20771, 
+            "gdppc": 2379.0, 
+            "life_expectancy": 65.08536585, 
+            "population": 145306046, 
+            "unemployment": 7.900000095
+        }, 
+        "410": {
+            "emigrants": 20724, 
+            "gdppc": 13022.0, 
+            "life_expectancy": 76.83902439, 
+            "population": 47622179, 
+            "unemployment": 3.299999952
+        }, 
+        "804": {
+            "emigrants": 21190, 
+            "gdppc": 918.0, 
+            "life_expectancy": 68.27560976, 
+            "population": 48202500, 
+            "unemployment": 9.600000381
+        }, 
+        "826": {
+            "emigrants": 16297, 
+            "gdppc": 28333.0, 
+            "life_expectancy": 78.14390244, 
+            "population": 59370479, 
+            "unemployment": 5.199999809
+        }, 
+        "704": {
+            "emigrants": 33563, 
+            "gdppc": 428.0, 
+            "life_expectancy": 73.57656098, 
+            "population": 79537700, 
+            "unemployment": 2.099999905
+        }
+    }, 
+    "2003": {
+        "124": {
+            "emigrants": 11350, 
+            "gdppc": 28097.0, 
+            "life_expectancy": 79.83902439, 
+            "population": 31676000, 
+            "unemployment": 7.599999905
+        }, 
+        "156": {
+            "emigrants": 40568, 
+            "gdppc": 1286.0, 
+            "life_expectancy": 73.03312195, 
+            "population": 1288400000, 
+            "unemployment": 4.300000191
+        }, 
+        "170": {
+            "emigrants": 14720, 
+            "gdppc": 2245.0, 
+            "life_expectancy": 71.77690244, 
+            "population": 42152147, 
+            "unemployment": 14.10000038
+        }, 
+        "192": {
+            "emigrants": 9262, 
+            "gdppc": 3201.0, 
+            "life_expectancy": 77.36395122, 
+            "population": 11214837, 
+            "unemployment": 2.299999952
+        }, 
+        "214": {
+            "emigrants": 26159, 
+            "gdppc": 2384.0, 
+            "life_expectancy": 71.26682927, 
+            "population": 8967759, 
+            "unemployment": 16.70000076
+        }, 
+        "218": {
+            "emigrants": 7066, 
+            "gdppc": 2440.0, 
+            "life_expectancy": 73.72780488, 
+            "population": 13289600, 
+            "unemployment": 9.300000191
+        }, 
+        "222": {
+            "emigrants": 28231, 
+            "gdppc": 2550.0, 
+            "life_expectancy": 69.58953659, 
+            "population": 5900929, 
+            "unemployment": 6.900000095
+        }, 
+        "276": {
+            "emigrants": 5064, 
+            "gdppc": 30718.0, 
+            "life_expectancy": 78.3804878, 
+            "population": 82534176, 
+            "unemployment": 9.300000191
+        }, 
+        "320": {
+            "emigrants": 14386, 
+            "gdppc": 1743.0, 
+            "life_expectancy": 69.04119512, 
+            "population": 12573346, 
+            "unemployment": 2.799999952
+        }, 
+        "328": {
+            "emigrants": 6809, 
+            "gdppc": 1596.0, 
+            "life_expectancy": 65.3577561, 
+            "population": 742537, 
+            "unemployment": 12.30000019
+        }, 
+        "332": {
+            "emigrants": 12293, 
+            "gdppc": 315.0, 
+            "life_expectancy": 58.4952439, 
+            "population": 8976555, 
+            "unemployment": 7.5
+        }, 
+        "356": {
+            "emigrants": 50228, 
+            "gdppc": 523.0, 
+            "life_expectancy": 63.77453659, 
+            "population": 1108369577, 
+            "unemployment": 3.900000095
+        }, 
+        "364": {
+            "emigrants": 7230, 
+            "gdppc": 2241.0, 
+            "life_expectancy": 71.25385366, 
+            "population": 68522074, 
+            "unemployment": 12.19999981
+        }, 
+        "388": {
+            "emigrants": 13347, 
+            "gdppc": 3559.0, 
+            "life_expectancy": 72.90292683, 
+            "population": 2624695, 
+            "unemployment": 11.69999981
+        }, 
+        "484": {
+            "emigrants": 115585, 
+            "gdppc": 6674.0, 
+            "life_expectancy": 74.9375122, 
+            "population": 106888418, 
+            "unemployment": 3.0
+        }, 
+        "566": {
+            "emigrants": 7872, 
+            "gdppc": 821.0, 
+            "life_expectancy": 47.63773171, 
+            "population": 132581484, 
+            "unemployment": 7.599999905
+        }, 
+        "586": {
+            "emigrants": 9415, 
+            "gdppc": 618.0, 
+            "life_expectancy": 63.45834146, 
+            "population": 147251530, 
+            "unemployment": 7.699999809
+        }, 
+        "604": {
+            "emigrants": 9409, 
+            "gdppc": 2181.0, 
+            "life_expectancy": 71.7764878, 
+            "population": 26937737, 
+            "unemployment": 6.099999905
+        }, 
+        "608": {
+            "emigrants": 45250, 
+            "gdppc": 1011.0, 
+            "life_expectancy": 67.03892683, 
+            "population": 82971734, 
+            "unemployment": 11.19999981
+        }, 
+        "616": {
+            "emigrants": 10510, 
+            "gdppc": 5657.0, 
+            "life_expectancy": 74.59756098, 
+            "population": 38204570, 
+            "unemployment": 19.60000038
+        }, 
+        "643": {
+            "emigrants": 13935, 
+            "gdppc": 2976.0, 
+            "life_expectancy": 65.00756098, 
+            "population": 144648257, 
+            "unemployment": 8.199999809
+        }, 
+        "410": {
+            "emigrants": 12382, 
+            "gdppc": 14466.0, 
+            "life_expectancy": 77.2502439, 
+            "population": 47859311, 
+            "unemployment": 3.599999905
+        }, 
+        "804": {
+            "emigrants": 11633, 
+            "gdppc": 1095.0, 
+            "life_expectancy": 68.21073171, 
+            "population": 47812950, 
+            "unemployment": 9.100000381
+        }, 
+        "826": {
+            "emigrants": 9527, 
+            "gdppc": 32631.0, 
+            "life_expectancy": 78.44634146, 
+            "population": 59647577, 
+            "unemployment": 4.900000095
+        }, 
+        "704": {
+            "emigrants": 22087, 
+            "gdppc": 478.0, 
+            "life_expectancy": 73.77253659, 
+            "population": 80467400, 
+            "unemployment": 2.299999952
+        }
+    }, 
+    "2004": {
+        "124": {
+            "emigrants": 15569, 
+            "gdppc": 31906.0, 
+            "life_expectancy": 80.14146341, 
+            "population": 31995000, 
+            "unemployment": 7.199999809
+        }, 
+        "156": {
+            "emigrants": 55494, 
+            "gdppc": 1504.0, 
+            "life_expectancy": 73.41995122, 
+            "population": 1296075000, 
+            "unemployment": 4.300000191
+        }, 
+        "170": {
+            "emigrants": 18846, 
+            "gdppc": 2740.0, 
+            "life_expectancy": 72.02495122, 
+            "population": 42724157, 
+            "unemployment": 14.30000019
+        }, 
+        "192": {
+            "emigrants": 20488, 
+            "gdppc": 3399.0, 
+            "life_expectancy": 77.64468293, 
+            "population": 11240680, 
+            "unemployment": 1.899999976
+        }, 
+        "214": {
+            "emigrants": 30506, 
+            "gdppc": 2530.0, 
+            "life_expectancy": 71.48353659, 
+            "population": 9102997, 
+            "unemployment": 18.39999962
+        }, 
+        "218": {
+            "emigrants": 8626, 
+            "gdppc": 2709.0, 
+            "life_expectancy": 73.94231707, 
+            "population": 13509645, 
+            "unemployment": 6.699999809
+        }, 
+        "222": {
+            "emigrants": 29807, 
+            "gdppc": 2666.0, 
+            "life_expectancy": 69.88273171, 
+            "population": 5925089, 
+            "unemployment": 6.800000191
+        }, 
+        "276": {
+            "emigrants": 7099, 
+            "gdppc": 34628.0, 
+            "life_expectancy": 78.6804878, 
+            "population": 82516260, 
+            "unemployment": 10.30000019
+        }, 
+        "320": {
+            "emigrants": 18920, 
+            "gdppc": 1861.0, 
+            "life_expectancy": 69.36690244, 
+            "population": 12877711, 
+            "unemployment": 3.099999905
+        }, 
+        "328": {
+            "emigrants": 6351, 
+            "gdppc": 1693.0, 
+            "life_expectancy": 65.47365854, 
+            "population": 742162, 
+            "unemployment": 11.89999962
+        }, 
+        "332": {
+            "emigrants": 14191, 
+            "gdppc": 401.0, 
+            "life_expectancy": 58.82092683, 
+            "population": 9119182, 
+            "unemployment": 8.0
+        }, 
+        "356": {
+            "emigrants": 70151, 
+            "gdppc": 623.0, 
+            "life_expectancy": 64.14780488, 
+            "population": 1126419321, 
+            "unemployment": 3.900000095
+        }, 
+        "364": {
+            "emigrants": 10434, 
+            "gdppc": 2650.0, 
+            "life_expectancy": 71.59363415, 
+            "population": 69321953, 
+            "unemployment": 10.30000019
+        }, 
+        "388": {
+            "emigrants": 14430, 
+            "gdppc": 3819.0, 
+            "life_expectancy": 73.15560976, 
+            "population": 2634145, 
+            "unemployment": 11.39999962
+        }, 
+        "484": {
+            "emigrants": 175411, 
+            "gdppc": 7113.0, 
+            "life_expectancy": 75.1154878, 
+            "population": 108257822, 
+            "unemployment": 3.700000048
+        }, 
+        "566": {
+            "emigrants": 9374, 
+            "gdppc": 1038.0, 
+            "life_expectancy": 48.12565854, 
+            "population": 136033321, 
+            "unemployment": 7.699999809
+        }, 
+        "586": {
+            "emigrants": 12086, 
+            "gdppc": 694.0, 
+            "life_expectancy": 63.66746341, 
+            "population": 150267989, 
+            "unemployment": 7.400000095
+        }, 
+        "604": {
+            "emigrants": 11794, 
+            "gdppc": 2449.0, 
+            "life_expectancy": 72.13619512, 
+            "population": 27273188, 
+            "unemployment": 5.199999809
+        }, 
+        "608": {
+            "emigrants": 57846, 
+            "gdppc": 1080.0, 
+            "life_expectancy": 67.15419512, 
+            "population": 84596249, 
+            "unemployment": 11.89999962
+        }, 
+        "616": {
+            "emigrants": 14326, 
+            "gdppc": 6593.0, 
+            "life_expectancy": 74.84634146, 
+            "population": 38182222, 
+            "unemployment": 19.0
+        }, 
+        "643": {
+            "emigrants": 17410, 
+            "gdppc": 4102.0, 
+            "life_expectancy": 65.42121951, 
+            "population": 144067054, 
+            "unemployment": 7.800000191
+        }, 
+        "410": {
+            "emigrants": 19766, 
+            "gdppc": 16164.0, 
+            "life_expectancy": 77.84658537, 
+            "population": 48039415, 
+            "unemployment": 3.700000048
+        }, 
+        "804": {
+            "emigrants": 14156, 
+            "gdppc": 1426.0, 
+            "life_expectancy": 68.18536585, 
+            "population": 47451600, 
+            "unemployment": 8.600000381
+        }, 
+        "826": {
+            "emigrants": 14915, 
+            "gdppc": 38398.0, 
+            "life_expectancy": 78.74634146, 
+            "population": 59987905, 
+            "unemployment": 4.699999809
+        }, 
+        "704": {
+            "emigrants": 31524, 
+            "gdppc": 593.0, 
+            "life_expectancy": 73.95902439, 
+            "population": 81436400, 
+            "unemployment": 2.099999905
+        }
+    }, 
+    "2005": {
+        "124": {
+            "emigrants": 21878, 
+            "gdppc": 36092.0, 
+            "life_expectancy": 80.29268293, 
+            "population": 32312000, 
+            "unemployment": 6.699999809
+        }, 
+        "156": {
+            "emigrants": 69933, 
+            "gdppc": 1755.0, 
+            "life_expectancy": 73.76695122, 
+            "population": 1303720000, 
+            "unemployment": 4.099999905
+        }, 
+        "170": {
+            "emigrants": 25566, 
+            "gdppc": 3386.0, 
+            "life_expectancy": 72.26392683, 
+            "population": 43285636, 
+            "unemployment": 12.0
+        }, 
+        "192": {
+            "emigrants": 36261, 
+            "gdppc": 3787.0, 
+            "life_expectancy": 77.93214634, 
+            "population": 11261052, 
+            "unemployment": 1.899999976
+        }, 
+        "214": {
+            "emigrants": 27503, 
+            "gdppc": 3861.0, 
+            "life_expectancy": 71.70039024, 
+            "population": 9237565, 
+            "unemployment": 18.0
+        }, 
+        "218": {
+            "emigrants": 11608, 
+            "gdppc": 3022.0, 
+            "life_expectancy": 74.13797561, 
+            "population": 13735232, 
+            "unemployment": 6.599999905
+        }, 
+        "222": {
+            "emigrants": 21359, 
+            "gdppc": 2874.0, 
+            "life_expectancy": 70.17892683, 
+            "population": 5947206, 
+            "unemployment": 7.199999809
+        }, 
+        "276": {
+            "emigrants": 9264, 
+            "gdppc": 35218.0, 
+            "life_expectancy": 78.93170732, 
+            "population": 82469422, 
+            "unemployment": 11.10000038
+        }, 
+        "320": {
+            "emigrants": 16818, 
+            "gdppc": 2064.0, 
+            "life_expectancy": 69.64597561, 
+            "population": 13183505, 
+            "unemployment": 2.400000095
+        }, 
+        "328": {
+            "emigrants": 9317, 
+            "gdppc": 1772.0, 
+            "life_expectancy": 65.5825122, 
+            "population": 742495, 
+            "unemployment": 12.60000038
+        }, 
+        "332": {
+            "emigrants": 14524, 
+            "gdppc": 448.0, 
+            "life_expectancy": 59.17846341, 
+            "population": 9263409, 
+            "unemployment": 7.400000095
+        }, 
+        "356": {
+            "emigrants": 84680, 
+            "gdppc": 717.0, 
+            "life_expectancy": 64.52387805, 
+            "population": 1144326293, 
+            "unemployment": 4.400000095
+        }, 
+        "364": {
+            "emigrants": 13887, 
+            "gdppc": 3135.0, 
+            "life_expectancy": 71.93170732, 
+            "population": 70122115, 
+            "unemployment": 12.10000038
+        }, 
+        "388": {
+            "emigrants": 18345, 
+            "gdppc": 4199.0, 
+            "life_expectancy": 73.42802439, 
+            "population": 2643601, 
+            "unemployment": 10.89999962
+        }, 
+        "484": {
+            "emigrants": 161445, 
+            "gdppc": 7880.0, 
+            "life_expectancy": 75.28209756, 
+            "population": 109747906, 
+            "unemployment": 3.5
+        }, 
+        "566": {
+            "emigrants": 10597, 
+            "gdppc": 1293.0, 
+            "life_expectancy": 48.6664878, 
+            "population": 139611303, 
+            "unemployment": 7.599999905
+        }, 
+        "586": {
+            "emigrants": 14926, 
+            "gdppc": 768.0, 
+            "life_expectancy": 63.87763415, 
+            "population": 153356383, 
+            "unemployment": 7.099999905
+        }, 
+        "604": {
+            "emigrants": 15676, 
+            "gdppc": 2755.0, 
+            "life_expectancy": 72.4585122, 
+            "population": 27610406, 
+            "unemployment": 5.199999809
+        }, 
+        "608": {
+            "emigrants": 60746, 
+            "gdppc": 1197.0, 
+            "life_expectancy": 67.2664878, 
+            "population": 86141373, 
+            "unemployment": 7.699999809
+        }, 
+        "616": {
+            "emigrants": 15351, 
+            "gdppc": 7914.0, 
+            "life_expectancy": 74.99512195, 
+            "population": 38165445, 
+            "unemployment": 17.70000076
+        }, 
+        "643": {
+            "emigrants": 18055, 
+            "gdppc": 5320.0, 
+            "life_expectancy": 65.47, 
+            "population": 143518523, 
+            "unemployment": 7.099999905
+        }, 
+        "410": {
+            "emigrants": 26562, 
+            "gdppc": 18866.0, 
+            "life_expectancy": 78.43268293, 
+            "population": 48138077, 
+            "unemployment": 3.700000048
+        }, 
+        "804": {
+            "emigrants": 22745, 
+            "gdppc": 1907.0, 
+            "life_expectancy": 67.95682927, 
+            "population": 47105150, 
+            "unemployment": 7.199999809
+        }, 
+        "826": {
+            "emigrants": 19800, 
+            "gdppc": 40175.0, 
+            "life_expectancy": 79.04878049, 
+            "population": 60401206, 
+            "unemployment": 4.800000191
+        }, 
+        "704": {
+            "emigrants": 32784, 
+            "gdppc": 684.0, 
+            "life_expectancy": 74.13812195, 
+            "population": 82392100, 
+            "unemployment": 2.099999905
+        }
+    }, 
+    "2006": {
+        "124": {
+            "emigrants": 18207, 
+            "gdppc": 40194.0, 
+            "life_expectancy": 80.41878049, 
+            "population": 32570505, 
+            "unemployment": 6.300000191
+        }, 
+        "156": {
+            "emigrants": 87307, 
+            "gdppc": 2097.0, 
+            "life_expectancy": 74.07170732, 
+            "population": 1311020000, 
+            "unemployment": 4.0
+        }, 
+        "170": {
+            "emigrants": 43144, 
+            "gdppc": 3709.0, 
+            "life_expectancy": 72.49143902, 
+            "population": 43835744, 
+            "unemployment": 11.69999981
+        }, 
+        "192": {
+            "emigrants": 45614, 
+            "gdppc": 4678.0, 
+            "life_expectancy": 78.20595122, 
+            "population": 11275199, 
+            "unemployment": 1.899999976
+        }, 
+        "214": {
+            "emigrants": 38068, 
+            "gdppc": 4073.0, 
+            "life_expectancy": 71.91682927, 
+            "population": 9371333, 
+            "unemployment": 16.39999962
+        }, 
+        "218": {
+            "emigrants": 17489, 
+            "gdppc": 3351.0, 
+            "life_expectancy": 74.32021951, 
+            "population": 13967490, 
+            "unemployment": 6.300000191
+        }, 
+        "222": {
+            "emigrants": 31782, 
+            "gdppc": 3109.0, 
+            "life_expectancy": 70.47917073, 
+            "population": 5967556, 
+            "unemployment": 6.599999905
+        }, 
+        "276": {
+            "emigrants": 8436, 
+            "gdppc": 37040.0, 
+            "life_expectancy": 79.13170732, 
+            "population": 82376451, 
+            "unemployment": 10.30000019
+        }, 
+        "320": {
+            "emigrants": 24133, 
+            "gdppc": 2241.0, 
+            "life_expectancy": 69.88790244, 
+            "population": 13490041, 
+            "unemployment": 1.799999952
+        }, 
+        "328": {
+            "emigrants": 9552, 
+            "gdppc": 1961.0, 
+            "life_expectancy": 65.68487805, 
+            "population": 743705, 
+            "unemployment": 11.19999981
+        }, 
+        "332": {
+            "emigrants": 22226, 
+            "gdppc": 518.0, 
+            "life_expectancy": 59.56741463, 
+            "population": 9409479, 
+            "unemployment": 7.300000191
+        }, 
+        "356": {
+            "emigrants": 61369, 
+            "gdppc": 800.0, 
+            "life_expectancy": 64.90809756, 
+            "population": 1162088305, 
+            "unemployment": 4.300000191
+        }, 
+        "364": {
+            "emigrants": 13947, 
+            "gdppc": 3647.0, 
+            "life_expectancy": 72.28812195, 
+            "population": 70923164, 
+            "unemployment": 11.60000038
+        }, 
+        "388": {
+            "emigrants": 24976, 
+            "gdppc": 4433.0, 
+            "life_expectancy": 73.71560976, 
+            "population": 2653042, 
+            "unemployment": 9.600000381
+        }, 
+        "484": {
+            "emigrants": 173749, 
+            "gdppc": 8666.0, 
+            "life_expectancy": 75.43878049, 
+            "population": 111382857, 
+            "unemployment": 3.200000048
+        }, 
+        "566": {
+            "emigrants": 13459, 
+            "gdppc": 1632.0, 
+            "life_expectancy": 49.23614634, 
+            "population": 143318011, 
+            "unemployment": 7.599999905
+        }, 
+        "586": {
+            "emigrants": 17418, 
+            "gdppc": 871.0, 
+            "life_expectancy": 64.09939024, 
+            "population": 156524189, 
+            "unemployment": 6.099999905
+        }, 
+        "604": {
+            "emigrants": 21718, 
+            "gdppc": 3172.0, 
+            "life_expectancy": 72.74343902, 
+            "population": 27949958, 
+            "unemployment": 4.599999905
+        }, 
+        "608": {
+            "emigrants": 74606, 
+            "gdppc": 1395.0, 
+            "life_expectancy": 67.3747561, 
+            "population": 87592899, 
+            "unemployment": 8.0
+        }, 
+        "616": {
+            "emigrants": 17051, 
+            "gdppc": 8921.0, 
+            "life_expectancy": 75.14390244, 
+            "population": 38141267, 
+            "unemployment": 13.80000019
+        }, 
+        "643": {
+            "emigrants": 13159, 
+            "gdppc": 6906.0, 
+            "life_expectancy": 66.64317073, 
+            "population": 143049528, 
+            "unemployment": 7.099999905
+        }, 
+        "410": {
+            "emigrants": 24386, 
+            "gdppc": 21122.0, 
+            "life_expectancy": 78.96926829, 
+            "population": 48371946, 
+            "unemployment": 3.400000095
+        }, 
+        "804": {
+            "emigrants": 17140, 
+            "gdppc": 2406.0, 
+            "life_expectancy": 68.07756098, 
+            "population": 46787750, 
+            "unemployment": 6.800000191
+        }, 
+        "826": {
+            "emigrants": 17207, 
+            "gdppc": 42674.0, 
+            "life_expectancy": 79.24878049, 
+            "population": 60846820, 
+            "unemployment": 5.5
+        }, 
+        "704": {
+            "emigrants": 30691, 
+            "gdppc": 781.0, 
+            "life_expectancy": 74.31236585, 
+            "population": 83311200, 
+            "unemployment": 2.299999952
+        }
+    }, 
+    "2007": {
+        "124": {
+            "emigrants": 15495, 
+            "gdppc": 44202.0, 
+            "life_expectancy": 80.63439024, 
+            "population": 32887928, 
+            "unemployment": 6.0
+        }, 
+        "156": {
+            "emigrants": 76655, 
+            "gdppc": 2684.0, 
+            "life_expectancy": 74.34043902, 
+            "population": 1317885000, 
+            "unemployment": 3.799999952
+        }, 
+        "170": {
+            "emigrants": 33187, 
+            "gdppc": 4674.0, 
+            "life_expectancy": 72.7055122, 
+            "population": 44374647, 
+            "unemployment": 11.19999981
+        }, 
+        "192": {
+            "emigrants": 29104, 
+            "gdppc": 5194.0, 
+            "life_expectancy": 78.44919512, 
+            "population": 11284043, 
+            "unemployment": 1.799999952
+        }, 
+        "214": {
+            "emigrants": 28024, 
+            "gdppc": 4596.0, 
+            "life_expectancy": 72.13131707, 
+            "population": 9504336, 
+            "unemployment": 15.69999981
+        }, 
+        "218": {
+            "emigrants": 12248, 
+            "gdppc": 3591.0, 
+            "life_expectancy": 74.49502439, 
+            "population": 14205479, 
+            "unemployment": 5.0
+        }, 
+        "222": {
+            "emigrants": 21127, 
+            "gdppc": 3358.0, 
+            "life_expectancy": 70.78046341, 
+            "population": 5986414, 
+            "unemployment": 6.300000191
+        }, 
+        "276": {
+            "emigrants": 7582, 
+            "gdppc": 42543.0, 
+            "life_expectancy": 79.53414634, 
+            "population": 82266372, 
+            "unemployment": 8.600000381
+        }, 
+        "320": {
+            "emigrants": 17908, 
+            "gdppc": 2472.0, 
+            "life_expectancy": 70.11078049, 
+            "population": 13797629, 
+            "unemployment": 2.5
+        }, 
+        "328": {
+            "emigrants": 5726, 
+            "gdppc": 2334.0, 
+            "life_expectancy": 65.7797561, 
+            "population": 745638, 
+            "unemployment": 10.80000019
+        }, 
+        "332": {
+            "emigrants": 30405, 
+            "gdppc": 625.0, 
+            "life_expectancy": 59.97739024, 
+            "population": 9556958, 
+            "unemployment": 7.199999809
+        }, 
+        "356": {
+            "emigrants": 65353, 
+            "gdppc": 1002.0, 
+            "life_expectancy": 65.30043902, 
+            "population": 1179685631, 
+            "unemployment": 3.700000048
+        }, 
+        "364": {
+            "emigrants": 10460, 
+            "gdppc": 4705.0, 
+            "life_expectancy": 72.67419512, 
+            "population": 71720859, 
+            "unemployment": 10.60000038
+        }, 
+        "388": {
+            "emigrants": 19375, 
+            "gdppc": 4733.0, 
+            "life_expectancy": 74.00929268, 
+            "population": 2662481, 
+            "unemployment": 9.399999619
+        }, 
+        "484": {
+            "emigrants": 148640, 
+            "gdppc": 9220.0, 
+            "life_expectancy": 75.58792683, 
+            "population": 113139374, 
+            "unemployment": 3.400000095
+        }, 
+        "566": {
+            "emigrants": 12448, 
+            "gdppc": 1819.0, 
+            "life_expectancy": 49.80814634, 
+            "population": 147152502, 
+            "unemployment": 7.599999905
+        }, 
+        "586": {
+            "emigrants": 13492, 
+            "gdppc": 952.0, 
+            "life_expectancy": 64.33873171, 
+            "population": 159767672, 
+            "unemployment": 5.099999905
+        }, 
+        "604": {
+            "emigrants": 17699, 
+            "gdppc": 3612.0, 
+            "life_expectancy": 72.99695122, 
+            "population": 28292768, 
+            "unemployment": 4.5
+        }, 
+        "608": {
+            "emigrants": 72596, 
+            "gdppc": 1679.0, 
+            "life_expectancy": 67.47902439, 
+            "population": 88965508, 
+            "unemployment": 7.400000095
+        }, 
+        "616": {
+            "emigrants": 10355, 
+            "gdppc": 11136.0, 
+            "life_expectancy": 75.24390244, 
+            "population": 38120560, 
+            "unemployment": 9.600000381
+        }, 
+        "643": {
+            "emigrants": 9426, 
+            "gdppc": 9077.0, 
+            "life_expectancy": 67.49756098, 
+            "population": 142805088, 
+            "unemployment": 6.0
+        }, 
+        "410": {
+            "emigrants": 22405, 
+            "gdppc": 23290.0, 
+            "life_expectancy": 79.3495122, 
+            "population": 48597652, 
+            "unemployment": 3.200000048
+        }, 
+        "804": {
+            "emigrants": 11001, 
+            "gdppc": 3216.0, 
+            "life_expectancy": 68.22219512, 
+            "population": 46509350, 
+            "unemployment": 6.400000095
+        }, 
+        "826": {
+            "emigrants": 14545, 
+            "gdppc": 48566.0, 
+            "life_expectancy": 79.44878049, 
+            "population": 61322463, 
+            "unemployment": 5.400000095
+        }, 
+        "704": {
+            "emigrants": 28691, 
+            "gdppc": 903.0, 
+            "life_expectancy": 74.48385366, 
+            "population": 84218500, 
+            "unemployment": 2.299999952
+        }
+    }, 
+    "2008": {
+        "124": {
+            "emigrants": 15109, 
+            "gdppc": 46235.0, 
+            "life_expectancy": 80.82536585, 
+            "population": 33245773, 
+            "unemployment": 6.099999905
+        }, 
+        "156": {
+            "emigrants": 80271, 
+            "gdppc": 3441.0, 
+            "life_expectancy": 74.58326829, 
+            "population": 1324655000, 
+            "unemployment": 4.400000095
+        }, 
+        "170": {
+            "emigrants": 30213, 
+            "gdppc": 5434.0, 
+            "life_expectancy": 72.90717073, 
+            "population": 44901660, 
+            "unemployment": 11.10000038
+        }, 
+        "192": {
+            "emigrants": 49500, 
+            "gdppc": 5386.0, 
+            "life_expectancy": 78.6505122, 
+            "population": 11290239, 
+            "unemployment": 1.600000024
+        }, 
+        "214": {
+            "emigrants": 31879, 
+            "gdppc": 4932.0, 
+            "life_expectancy": 72.34231707, 
+            "population": 9636491, 
+            "unemployment": 14.19999981
+        }, 
+        "218": {
+            "emigrants": 11663, 
+            "gdppc": 4275.0, 
+            "life_expectancy": 74.66782927, 
+            "population": 14447600, 
+            "unemployment": 6.0
+        }, 
+        "222": {
+            "emigrants": 19659, 
+            "gdppc": 3569.0, 
+            "life_expectancy": 71.08078049, 
+            "population": 6004199, 
+            "unemployment": 5.900000095
+        }, 
+        "276": {
+            "emigrants": 7091, 
+            "gdppc": 46519.0, 
+            "life_expectancy": 79.73658537, 
+            "population": 82110097, 
+            "unemployment": 7.5
+        }, 
+        "320": {
+            "emigrants": 16182, 
+            "gdppc": 2774.0, 
+            "life_expectancy": 70.32814634, 
+            "population": 14106687, 
+            "unemployment": 2.799999952
+        }, 
+        "328": {
+            "emigrants": 6823, 
+            "gdppc": 2570.0, 
+            "life_expectancy": 65.87014634, 
+            "population": 748096, 
+            "unemployment": 11.80000019
+        }, 
+        "332": {
+            "emigrants": 26007, 
+            "gdppc": 660.0, 
+            "life_expectancy": 60.39797561, 
+            "population": 9705130, 
+            "unemployment": 7.400000095
+        }, 
+        "356": {
+            "emigrants": 63352, 
+            "gdppc": 1060.0, 
+            "life_expectancy": 65.69943902, 
+            "population": 1197070109, 
+            "unemployment": 4.099999905
+        }, 
+        "364": {
+            "emigrants": 13852, 
+            "gdppc": 5476.0, 
+            "life_expectancy": 73.09207317, 
+            "population": 72530693, 
+            "unemployment": 10.5
+        }, 
+        "388": {
+            "emigrants": 18477, 
+            "gdppc": 5045.0, 
+            "life_expectancy": 74.30195122, 
+            "population": 2671934, 
+            "unemployment": 10.60000038
+        }, 
+        "484": {
+            "emigrants": 189989, 
+            "gdppc": 9579.0, 
+            "life_expectancy": 75.73246341, 
+            "population": 114972821, 
+            "unemployment": 3.5
+        }, 
+        "566": {
+            "emigrants": 12475, 
+            "gdppc": 2214.0, 
+            "life_expectancy": 50.35743902, 
+            "population": 151115683, 
+            "unemployment": 7.599999905
+        }, 
+        "586": {
+            "emigrants": 19719, 
+            "gdppc": 926.0, 
+            "life_expectancy": 64.59814634, 
+            "population": 163096985, 
+            "unemployment": 5.0
+        }, 
+        "604": {
+            "emigrants": 15184, 
+            "gdppc": 4211.0, 
+            "life_expectancy": 73.22502439, 
+            "population": 28642048, 
+            "unemployment": 4.5
+        }, 
+        "608": {
+            "emigrants": 54030, 
+            "gdppc": 1929.0, 
+            "life_expectancy": 67.58078049, 
+            "population": 90297115, 
+            "unemployment": 7.300000191
+        }, 
+        "616": {
+            "emigrants": 8354, 
+            "gdppc": 13762.0, 
+            "life_expectancy": 75.54390244, 
+            "population": 38125759, 
+            "unemployment": 7.099999905
+        }, 
+        "643": {
+            "emigrants": 11695, 
+            "gdppc": 11604.0, 
+            "life_expectancy": 67.84878049, 
+            "population": 142742350, 
+            "unemployment": 6.199999809
+        }, 
+        "410": {
+            "emigrants": 26666, 
+            "gdppc": 20660.0, 
+            "life_expectancy": 79.83268293, 
+            "population": 48948698, 
+            "unemployment": 3.200000048
+        }, 
+        "804": {
+            "emigrants": 10813, 
+            "gdppc": 4087.0, 
+            "life_expectancy": 68.25146341, 
+            "population": 46258200, 
+            "unemployment": 6.400000095
+        }, 
+        "826": {
+            "emigrants": 14348, 
+            "gdppc": 45284.0, 
+            "life_expectancy": 79.6, 
+            "population": 61806995, 
+            "unemployment": 5.400000095
+        }, 
+        "704": {
+            "emigrants": 31497, 
+            "gdppc": 1145.0, 
+            "life_expectancy": 74.65309756, 
+            "population": 85118700, 
+            "unemployment": 2.400000095
+        }
+    }, 
+    "2009": {
+        "124": {
+            "emigrants": 16140, 
+            "gdppc": 40622.0, 
+            "life_expectancy": 81.11146341, 
+            "population": 33628571, 
+            "unemployment": 8.300000191
+        }, 
+        "156": {
+            "emigrants": 64238, 
+            "gdppc": 3802.0, 
+            "life_expectancy": 74.80326829, 
+            "population": 1331260000, 
+            "unemployment": 4.400000095
+        }, 
+        "170": {
+            "emigrants": 27849, 
+            "gdppc": 5148.0, 
+            "life_expectancy": 73.09695122, 
+            "population": 45416276, 
+            "unemployment": 11.80000019
+        }, 
+        "192": {
+            "emigrants": 38954, 
+            "gdppc": 5495.0, 
+            "life_expectancy": 78.81097561, 
+            "population": 11297442, 
+            "unemployment": 1.700000048
+        }, 
+        "214": {
+            "emigrants": 49414, 
+            "gdppc": 4903.0, 
+            "life_expectancy": 72.54831707, 
+            "population": 9767737, 
+            "unemployment": 14.89999962
+        }, 
+        "218": {
+            "emigrants": 12128, 
+            "gdppc": 4256.0, 
+            "life_expectancy": 74.84460976, 
+            "population": 14691310, 
+            "unemployment": 6.5
+        }, 
+        "222": {
+            "emigrants": 19909, 
+            "gdppc": 3431.0, 
+            "life_expectancy": 71.37814634, 
+            "population": 6021368, 
+            "unemployment": 7.300000191
+        }, 
+        "276": {
+            "emigrants": 7583, 
+            "gdppc": 42447.0, 
+            "life_expectancy": 79.83658537, 
+            "population": 81902307, 
+            "unemployment": 7.699999809
+        }, 
+        "320": {
+            "emigrants": 12187, 
+            "gdppc": 2617.0, 
+            "life_expectancy": 70.54753659, 
+            "population": 14418033, 
+            "unemployment": 3.200000048
+        }, 
+        "328": {
+            "emigrants": 6670, 
+            "gdppc": 2698.0, 
+            "life_expectancy": 65.957, 
+            "population": 750749, 
+            "unemployment": 11.5
+        }, 
+        "332": {
+            "emigrants": 24280, 
+            "gdppc": 660.0, 
+            "life_expectancy": 60.82221951, 
+            "population": 9852953, 
+            "unemployment": 7.099999905
+        }, 
+        "356": {
+            "emigrants": 57304, 
+            "gdppc": 1080.0, 
+            "life_expectancy": 66.10263415, 
+            "population": 1214182182, 
+            "unemployment": 3.900000095
+        }, 
+        "364": {
+            "emigrants": 18553, 
+            "gdppc": 5438.0, 
+            "life_expectancy": 73.53417073, 
+            "population": 73370982, 
+            "unemployment": 12.0
+        }, 
+        "388": {
+            "emigrants": 21783, 
+            "gdppc": 4440.0, 
+            "life_expectancy": 74.58404878, 
+            "population": 2681386, 
+            "unemployment": 11.39999962
+        }, 
+        "484": {
+            "emigrants": 164920, 
+            "gdppc": 7648.0, 
+            "life_expectancy": 75.87741463, 
+            "population": 116815612, 
+            "unemployment": 5.199999809
+        }, 
+        "566": {
+            "emigrants": 15253, 
+            "gdppc": 1756.0, 
+            "life_expectancy": 50.86856098, 
+            "population": 155207145, 
+            "unemployment": 7.599999905
+        }, 
+        "586": {
+            "emigrants": 21555, 
+            "gdppc": 970.0, 
+            "life_expectancy": 64.87609756, 
+            "population": 166520983, 
+            "unemployment": 5.199999809
+        }, 
+        "604": {
+            "emigrants": 16957, 
+            "gdppc": 4154.0, 
+            "life_expectancy": 73.43614634, 
+            "population": 29001563, 
+            "unemployment": 4.400000095
+        }, 
+        "608": {
+            "emigrants": 60029, 
+            "gdppc": 1837.0, 
+            "life_expectancy": 67.68104878, 
+            "population": 91641881, 
+            "unemployment": 7.5
+        }, 
+        "616": {
+            "emigrants": 8754, 
+            "gdppc": 11322.0, 
+            "life_expectancy": 75.69512195, 
+            "population": 38151603, 
+            "unemployment": 8.199999809
+        }, 
+        "643": {
+            "emigrants": 8238, 
+            "gdppc": 8542.0, 
+            "life_expectancy": 68.60487805, 
+            "population": 142785342, 
+            "unemployment": 8.300000191
+        }, 
+        "410": {
+            "emigrants": 25859, 
+            "gdppc": 18480.0, 
+            "life_expectancy": 80.29731707, 
+            "population": 49182038, 
+            "unemployment": 3.599999905
+        }, 
+        "804": {
+            "emigrants": 11223, 
+            "gdppc": 2652.0, 
+            "life_expectancy": 69.19, 
+            "population": 46053300, 
+            "unemployment": 8.800000191
+        }, 
+        "826": {
+            "emigrants": 15748, 
+            "gdppc": 37198.0, 
+            "life_expectancy": 80.05121951, 
+            "population": 62276270, 
+            "unemployment": 7.800000191
+        }, 
+        "704": {
+            "emigrants": 29234, 
+            "gdppc": 1212.0, 
+            "life_expectancy": 74.82260976, 
+            "population": 86025000, 
+            "unemployment": 2.599999905
+        }
+    }, 
+    "2010": {
+        "124": {
+            "emigrants": 13328, 
+            "gdppc": 47297.0, 
+            "life_expectancy": 81.41292683, 
+            "population": 34005274, 
+            "unemployment": 8.0
+        }, 
+        "156": {
+            "emigrants": 70863, 
+            "gdppc": 4478.0, 
+            "life_expectancy": 75.00741463, 
+            "population": 1337705000, 
+            "unemployment": 4.199999809
+        }, 
+        "170": {
+            "emigrants": 22406, 
+            "gdppc": 6251.0, 
+            "life_expectancy": 73.27785366, 
+            "population": 45918101, 
+            "unemployment": 12.0
+        }, 
+        "192": {
+            "emigrants": 33573, 
+            "gdppc": 5689.0, 
+            "life_expectancy": 78.93563415, 
+            "population": 11308133, 
+            "unemployment": 2.5
+        }, 
+        "214": {
+            "emigrants": 53870, 
+            "gdppc": 5359.0, 
+            "life_expectancy": 72.74980488, 
+            "population": 9897983, 
+            "unemployment": 12.39999962
+        }, 
+        "218": {
+            "emigrants": 11492, 
+            "gdppc": 4657.0, 
+            "life_expectancy": 75.02980488, 
+            "population": 14934692, 
+            "unemployment": 5.0
+        }, 
+        "222": {
+            "emigrants": 18806, 
+            "gdppc": 3547.0, 
+            "life_expectancy": 71.67060976, 
+            "population": 6038306, 
+            "unemployment": 7.0
+        }, 
+        "276": {
+            "emigrants": 6888, 
+            "gdppc": 42483.0, 
+            "life_expectancy": 79.98780488, 
+            "population": 81776930, 
+            "unemployment": 7.099999905
+        }, 
+        "320": {
+            "emigrants": 10467, 
+            "gdppc": 2806.0, 
+            "life_expectancy": 70.77546341, 
+            "population": 14732261, 
+            "unemployment": 3.700000048
+        }, 
+        "328": {
+            "emigrants": 6749, 
+            "gdppc": 2999.0, 
+            "life_expectancy": 66.04270732, 
+            "population": 753362, 
+            "unemployment": 11.30000019
+        }, 
+        "332": {
+            "emigrants": 22582, 
+            "gdppc": 671.0, 
+            "life_expectancy": 61.24012195, 
+            "population": 9999617, 
+            "unemployment": 8.100000381
+        }, 
+        "356": {
+            "emigrants": 69162, 
+            "gdppc": 1356.0, 
+            "life_expectancy": 66.50614634, 
+            "population": 1230984504, 
+            "unemployment": 3.5
+        }, 
+        "364": {
+            "emigrants": 14182, 
+            "gdppc": 6300.0, 
+            "life_expectancy": 73.98317073, 
+            "population": 74253373, 
+            "unemployment": 13.5
+        }, 
+        "388": {
+            "emigrants": 19825, 
+            "gdppc": 4822.0, 
+            "life_expectancy": 74.8474878, 
+            "population": 2690824, 
+            "unemployment": 12.39999962
+        }, 
+        "484": {
+            "emigrants": 139120, 
+            "gdppc": 8851.0, 
+            "life_expectancy": 76.02678049, 
+            "population": 118617542, 
+            "unemployment": 5.199999809
+        }, 
+        "566": {
+            "emigrants": 13376, 
+            "gdppc": 2315.0, 
+            "life_expectancy": 51.3295122, 
+            "population": 159424742, 
+            "unemployment": 7.599999905
+        }, 
+        "586": {
+            "emigrants": 18258, 
+            "gdppc": 1026.0, 
+            "life_expectancy": 65.16256098, 
+            "population": 170043918, 
+            "unemployment": 5.099999905
+        }, 
+        "604": {
+            "emigrants": 14247, 
+            "gdppc": 5007.0, 
+            "life_expectancy": 73.63980488, 
+            "population": 29373644, 
+            "unemployment": 4.0
+        }, 
+        "608": {
+            "emigrants": 58173, 
+            "gdppc": 2145.0, 
+            "life_expectancy": 67.78331707, 
+            "population": 93038902, 
+            "unemployment": 7.300000191
+        }, 
+        "616": {
+            "emigrants": 7643, 
+            "gdppc": 12424.0, 
+            "life_expectancy": 76.24634146, 
+            "population": 38042794, 
+            "unemployment": 9.600000381
+        }, 
+        "643": {
+            "emigrants": 6718, 
+            "gdppc": 10652.0, 
+            "life_expectancy": 68.85609756, 
+            "population": 142849449, 
+            "unemployment": 7.300000191
+        }, 
+        "410": {
+            "emigrants": 22227, 
+            "gdppc": 22296.0, 
+            "life_expectancy": 80.55121951, 
+            "population": 49410366, 
+            "unemployment": 3.700000048
+        }, 
+        "804": {
+            "emigrants": 8477, 
+            "gdppc": 3093.0, 
+            "life_expectancy": 70.26536585, 
+            "population": 45870700, 
+            "unemployment": 8.100000381
+        }, 
+        "826": {
+            "emigrants": 12792, 
+            "gdppc": 38324.0, 
+            "life_expectancy": 80.40243902, 
+            "population": 62766365, 
+            "unemployment": 7.900000095
+        }, 
+        "704": {
+            "emigrants": 30632, 
+            "gdppc": 1312.0, 
+            "life_expectancy": 74.99036585, 
+            "population": 86932500, 
+            "unemployment": 2.599999905
+        }
+    }, 
+    "2011": {
+        "124": {
+            "emigrants": 12800, 
+            "gdppc": 51848.0, 
+            "life_expectancy": 81.34929268, 
+            "population": 34342780, 
+            "unemployment": 7.400000095
+        }, 
+        "156": {
+            "emigrants": 87016, 
+            "gdppc": 5520.0, 
+            "life_expectancy": 75.20217073, 
+            "population": 1344130000, 
+            "unemployment": 4.300000191
+        }, 
+        "170": {
+            "emigrants": 22635, 
+            "gdppc": 7228.0, 
+            "life_expectancy": 73.45480488, 
+            "population": 46406446, 
+            "unemployment": 11.10000038
+        }, 
+        "192": {
+            "emigrants": 36452, 
+            "gdppc": 6139.0, 
+            "life_expectancy": 79.0395122, 
+            "population": 11323570, 
+            "unemployment": 3.200000048
+        }, 
+        "214": {
+            "emigrants": 46109, 
+            "gdppc": 5787.0, 
+            "life_expectancy": 72.94529268, 
+            "population": 10027140, 
+            "unemployment": 14.69999981
+        }, 
+        "218": {
+            "emigrants": 11103, 
+            "gdppc": 5223.0, 
+            "life_expectancy": 75.22643902, 
+            "population": 15177280, 
+            "unemployment": 4.199999809
+        }, 
+        "222": {
+            "emigrants": 18667, 
+            "gdppc": 3821.0, 
+            "life_expectancy": 71.95617073, 
+            "population": 6055208, 
+            "unemployment": 6.599999905
+        }, 
+        "276": {
+            "emigrants": 6125, 
+            "gdppc": 46723.0, 
+            "life_expectancy": 80.74146341, 
+            "population": 81797673, 
+            "unemployment": 5.900000095
+        }, 
+        "320": {
+            "emigrants": 11092, 
+            "gdppc": 3167.0, 
+            "life_expectancy": 71.01041463, 
+            "population": 15049280, 
+            "unemployment": 4.099999905
+        }, 
+        "328": {
+            "emigrants": 6599, 
+            "gdppc": 3409.0, 
+            "life_expectancy": 66.12914634, 
+            "population": 755883, 
+            "unemployment": 11.10000038
+        }, 
+        "332": {
+            "emigrants": 22111, 
+            "gdppc": 737.0, 
+            "life_expectancy": 61.64519512, 
+            "population": 10144890, 
+            "unemployment": 6.800000191
+        }, 
+        "356": {
+            "emigrants": 69013, 
+            "gdppc": 1517.0, 
+            "life_expectancy": 66.90417073, 
+            "population": 1247446011, 
+            "unemployment": 3.5
+        }, 
+        "364": {
+            "emigrants": 14822, 
+            "gdppc": 7874.0, 
+            "life_expectancy": 74.41258537, 
+            "population": 75184322, 
+            "unemployment": 13.30000019
+        }, 
+        "388": {
+            "emigrants": 19662, 
+            "gdppc": 5242.0, 
+            "life_expectancy": 75.0862439, 
+            "population": 2699838, 
+            "unemployment": 12.69999981
+        }, 
+        "484": {
+            "emigrants": 143446, 
+            "gdppc": 9715.0, 
+            "life_expectancy": 76.18565854, 
+            "population": 120365271, 
+            "unemployment": 5.300000191
+        }, 
+        "566": {
+            "emigrants": 11824, 
+            "gdppc": 2514.0, 
+            "life_expectancy": 51.73780488, 
+            "population": 163770669, 
+            "unemployment": 7.599999905
+        }, 
+        "586": {
+            "emigrants": 15546, 
+            "gdppc": 1219.0, 
+            "life_expectancy": 65.447, 
+            "population": 173669648, 
+            "unemployment": 5.099999905
+        }, 
+        "604": {
+            "emigrants": 14064, 
+            "gdppc": 5755.0, 
+            "life_expectancy": 73.84497561, 
+            "population": 29759891, 
+            "unemployment": 3.900000095
+        }, 
+        "608": {
+            "emigrants": 57011, 
+            "gdppc": 2372.0, 
+            "life_expectancy": 67.89065854, 
+            "population": 94501233, 
+            "unemployment": 7.0
+        }, 
+        "616": {
+            "emigrants": 6863, 
+            "gdppc": 13700.0, 
+            "life_expectancy": 76.69512195, 
+            "population": 38063255, 
+            "unemployment": 9.600000381
+        }, 
+        "643": {
+            "emigrants": 7944, 
+            "gdppc": 13301.0, 
+            "life_expectancy": 69.65853659, 
+            "population": 142960868, 
+            "unemployment": 6.5
+        }, 
+        "410": {
+            "emigrants": 22824, 
+            "gdppc": 24363.0, 
+            "life_expectancy": 80.96707317, 
+            "population": 49779440, 
+            "unemployment": 3.400000095
+        }, 
+        "804": {
+            "emigrants": 8292, 
+            "gdppc": 3723.0, 
+            "life_expectancy": 70.80926829, 
+            "population": 45706100, 
+            "unemployment": 7.900000095
+        }, 
+        "826": {
+            "emigrants": 11572, 
+            "gdppc": 41079.0, 
+            "life_expectancy": 80.95121951, 
+            "population": 63258918, 
+            "unemployment": 7.800000191
+        }, 
+        "704": {
+            "emigrants": 34157, 
+            "gdppc": 1517.0, 
+            "life_expectancy": 75.15680488, 
+            "population": 87860300, 
+            "unemployment": 2.0
+        }
+    }, 
+    "2012": {
+        "124": {
+            "emigrants": 12932, 
+            "gdppc": 52561.0, 
+            "life_expectancy": 81.56243902, 
+            "population": 34751476, 
+            "unemployment": 7.199999809
+        }, 
+        "156": {
+            "emigrants": 81784, 
+            "gdppc": 6250.0, 
+            "life_expectancy": 75.39292683, 
+            "population": 1350695000, 
+            "unemployment": 4.5
+        }, 
+        "170": {
+            "emigrants": 20931, 
+            "gdppc": 7885.0, 
+            "life_expectancy": 73.63078049, 
+            "population": 46881018, 
+            "unemployment": 10.60000038
+        }, 
+        "192": {
+            "emigrants": 32820, 
+            "gdppc": 6448.0, 
+            "life_expectancy": 79.14160976, 
+            "population": 11342631, 
+            "unemployment": 3.200000048
+        }, 
+        "214": {
+            "emigrants": 41566, 
+            "gdppc": 5952.0, 
+            "life_expectancy": 73.13531707, 
+            "population": 10155036, 
+            "unemployment": 14.69999981
+        }, 
+        "218": {
+            "emigrants": 9342, 
+            "gdppc": 5702.0, 
+            "life_expectancy": 75.433, 
+            "population": 15419493, 
+            "unemployment": 4.099999905
+        }, 
+        "222": {
+            "emigrants": 16256, 
+            "gdppc": 3922.0, 
+            "life_expectancy": 72.23185366, 
+            "population": 6072233, 
+            "unemployment": 6.099999905
+        }, 
+        "276": {
+            "emigrants": 5812, 
+            "gdppc": 43982.0, 
+            "life_expectancy": 80.89268293, 
+            "population": 80425823, 
+            "unemployment": 5.400000095
+        }, 
+        "320": {
+            "emigrants": 10341, 
+            "gdppc": 3279.0, 
+            "life_expectancy": 71.24939024, 
+            "population": 15368759, 
+            "unemployment": 2.900000095
+        }, 
+        "328": {
+            "emigrants": 5683, 
+            "gdppc": 3759.0, 
+            "life_expectancy": 66.21726829, 
+            "population": 758410, 
+            "unemployment": 11.19999981
+        }, 
+        "332": {
+            "emigrants": 22818, 
+            "gdppc": 760.0, 
+            "life_expectancy": 62.03339024, 
+            "population": 10288828, 
+            "unemployment": 7.0
+        }, 
+        "356": {
+            "emigrants": 66434, 
+            "gdppc": 1479.0, 
+            "life_expectancy": 67.28987805, 
+            "population": 1263589639, 
+            "unemployment": 3.599999905
+        }, 
+        "364": {
+            "emigrants": 12916, 
+            "gdppc": 7711.0, 
+            "life_expectancy": 74.79934146, 
+            "population": 76156975, 
+            "unemployment": 13.10000038
+        }, 
+        "388": {
+            "emigrants": 20705, 
+            "gdppc": 5352.0, 
+            "life_expectancy": 75.29982927, 
+            "population": 2707805, 
+            "unemployment": 13.69999981
+        }, 
+        "484": {
+            "emigrants": 146406, 
+            "gdppc": 9703.0, 
+            "life_expectancy": 76.35409756, 
+            "population": 122070963, 
+            "unemployment": 4.900000095
+        }, 
+        "566": {
+            "emigrants": 13575, 
+            "gdppc": 2740.0, 
+            "life_expectancy": 52.105, 
+            "population": 168240403, 
+            "unemployment": 7.5
+        }, 
+        "586": {
+            "emigrants": 14740, 
+            "gdppc": 1210.0, 
+            "life_expectancy": 65.71687805, 
+            "population": 177392252, 
+            "unemployment": 5.099999905
+        }, 
+        "604": {
+            "emigrants": 12609, 
+            "gdppc": 6393.0, 
+            "life_expectancy": 74.05765854, 
+            "population": 30158768, 
+            "unemployment": 3.599999905
+        }, 
+        "608": {
+            "emigrants": 57327, 
+            "gdppc": 2606.0, 
+            "life_expectancy": 68.00707317, 
+            "population": 96017322, 
+            "unemployment": 7.0
+        }, 
+        "616": {
+            "emigrants": 6300, 
+            "gdppc": 12956.0, 
+            "life_expectancy": 76.74634146, 
+            "population": 38063164, 
+            "unemployment": 10.10000038
+        }, 
+        "643": {
+            "emigrants": 9969, 
+            "gdppc": 14070.0, 
+            "life_expectancy": 70.36585366, 
+            "population": 143201676, 
+            "unemployment": 5.5
+        }, 
+        "410": {
+            "emigrants": 20846, 
+            "gdppc": 24649.0, 
+            "life_expectancy": 81.21341463, 
+            "population": 50004441, 
+            "unemployment": 3.200000048
+        }, 
+        "804": {
+            "emigrants": 7642, 
+            "gdppc": 4029.0, 
+            "life_expectancy": 70.94414634, 
+            "population": 45593300, 
+            "unemployment": 7.5
+        }, 
+        "826": {
+            "emigrants": 12014, 
+            "gdppc": 41377.0, 
+            "life_expectancy": 80.90487805, 
+            "population": 63700300, 
+            "unemployment": 8.0
+        }, 
+        "704": {
+            "emigrants": 28304, 
+            "gdppc": 1725.0, 
+            "life_expectancy": 75.31939024, 
+            "population": 88809200, 
+            "unemployment": 1.799999952
+        }
+    }, 
+    "2013": {
+        "124": {
+            "emigrants": 13181, 
+            "gdppc": 52198.0, 
+            "life_expectancy": 81.76504878, 
+            "population": 35155499, 
+            "unemployment": 7.099999905
+        }, 
+        "156": {
+            "emigrants": 71798, 
+            "gdppc": 6986.0, 
+            "life_expectancy": 75.58514634, 
+            "population": 1357380000, 
+            "unemployment": 4.599999905
+        }, 
+        "170": {
+            "emigrants": 21131, 
+            "gdppc": 8028.0, 
+            "life_expectancy": 73.80973171, 
+            "population": 47342363, 
+            "unemployment": 9.600000381
+        }, 
+        "192": {
+            "emigrants": 32219, 
+            "gdppc": 6790.0, 
+            "life_expectancy": 79.25639024, 
+            "population": 11362505, 
+            "unemployment": 3.200000048
+        }, 
+        "214": {
+            "emigrants": 41311, 
+            "gdppc": 5952.0, 
+            "life_expectancy": 73.31990244, 
+            "population": 10281408, 
+            "unemployment": 15.0
+        }, 
+        "218": {
+            "emigrants": 10591, 
+            "gdppc": 6052.0, 
+            "life_expectancy": 75.6485122, 
+            "population": 15661312, 
+            "unemployment": 4.199999809
+        }, 
+        "222": {
+            "emigrants": 18260, 
+            "gdppc": 3999.0, 
+            "life_expectancy": 72.49814634, 
+            "population": 6089644, 
+            "unemployment": 5.900000095
+        }, 
+        "276": {
+            "emigrants": 6032, 
+            "gdppc": 46488.0, 
+            "life_expectancy": 80.84390244, 
+            "population": 82132753, 
+            "unemployment": 5.300000191
+        }, 
+        "320": {
+            "emigrants": 10224, 
+            "gdppc": 3432.0, 
+            "life_expectancy": 71.48639024, 
+            "population": 15690793, 
+            "unemployment": 3.0
+        }, 
+        "328": {
+            "emigrants": 5897, 
+            "gdppc": 3929.0, 
+            "life_expectancy": 66.31002439, 
+            "population": 761033, 
+            "unemployment": 11.10000038
+        }, 
+        "332": {
+            "emigrants": 20351, 
+            "gdppc": 804.0, 
+            "life_expectancy": 62.40114634, 
+            "population": 10431249, 
+            "unemployment": 6.800000191
+        }, 
+        "356": {
+            "emigrants": 68458, 
+            "gdppc": 1513.0, 
+            "life_expectancy": 67.66041463, 
+            "population": 1279498874, 
+            "unemployment": 3.599999905
+        }, 
+        "364": {
+            "emigrants": 12863, 
+            "gdppc": 6631.0, 
+            "life_expectancy": 75.12597561, 
+            "population": 77152445, 
+            "unemployment": 12.89999962
+        }, 
+        "388": {
+            "emigrants": 19400, 
+            "gdppc": 5143.0, 
+            "life_expectancy": 75.4882439, 
+            "population": 2714669, 
+            "unemployment": 15.0
+        }, 
+        "484": {
+            "emigrants": 135028, 
+            "gdppc": 10173.0, 
+            "life_expectancy": 76.53265854, 
+            "population": 123740109, 
+            "unemployment": 4.900000095
+        }, 
+        "566": {
+            "emigrants": 13840, 
+            "gdppc": 2980.0, 
+            "life_expectancy": 52.44214634, 
+            "population": 172816517, 
+            "unemployment": 7.5
+        }, 
+        "586": {
+            "emigrants": 13251, 
+            "gdppc": 1221.0, 
+            "life_expectancy": 65.96368293, 
+            "population": 181192646, 
+            "unemployment": 5.099999905
+        }, 
+        "604": {
+            "emigrants": 12564, 
+            "gdppc": 6564.0, 
+            "life_expectancy": 74.28385366, 
+            "population": 30565461, 
+            "unemployment": 4.0
+        }, 
+        "608": {
+            "emigrants": 54446, 
+            "gdppc": 2788.0, 
+            "life_expectancy": 68.13156098, 
+            "population": 97571676, 
+            "unemployment": 7.099999905
+        }, 
+        "616": {
+            "emigrants": 6430, 
+            "gdppc": 13570.0, 
+            "life_expectancy": 77.0, 
+            "population": 38040196, 
+            "unemployment": 10.39999962
+        }, 
+        "643": {
+            "emigrants": 9753, 
+            "gdppc": 14501.0, 
+            "life_expectancy": 70.36585366, 
+            "population": 143506911, 
+            "unemployment": 5.5
+        }, 
+        "410": {
+            "emigrants": 23166, 
+            "gdppc": 26192.0, 
+            "life_expectancy": 81.70512195, 
+            "population": 50219669, 
+            "unemployment": 3.099999905
+        }, 
+        "804": {
+            "emigrants": 8193, 
+            "gdppc": 4218.0, 
+            "life_expectancy": 71.1595122, 
+            "population": 45489600, 
+            "unemployment": 7.199999809
+        }, 
+        "826": {
+            "emigrants": 12984, 
+            "gdppc": 42409.0, 
+            "life_expectancy": 81.00487805, 
+            "population": 64128226, 
+            "unemployment": 7.5
+        }, 
+        "704": {
+            "emigrants": 27101, 
+            "gdppc": 1874.0, 
+            "life_expectancy": 75.477, 
+            "population": 89759500, 
+            "unemployment": 2.200000048
+        }
+    }
+}

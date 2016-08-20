@@ -1,0 +1,112 @@
+{
+    "1992": {
+        "gdppc": 25355.0, 
+        "life_expectancy": 75.61707317, 
+        "unemployment": 7.599999905
+    }, 
+    "1993": {
+        "gdppc": 26403.0, 
+        "life_expectancy": 75.4195122, 
+        "unemployment": 7.0
+    }, 
+    "1994": {
+        "gdppc": 27758.0, 
+        "life_expectancy": 75.6195122, 
+        "unemployment": 6.199999809
+    }, 
+    "1995": {
+        "gdppc": 28782.0, 
+        "life_expectancy": 75.62195122, 
+        "unemployment": 5.699999809
+    }, 
+    "1996": {
+        "gdppc": 30058.0, 
+        "life_expectancy": 76.02682927, 
+        "unemployment": 5.5
+    }, 
+    "1997": {
+        "gdppc": 31547.0, 
+        "life_expectancy": 76.42926829, 
+        "unemployment": 5.0
+    }, 
+    "1998": {
+        "gdppc": 32890.0, 
+        "life_expectancy": 76.5804878, 
+        "unemployment": 4.599999905
+    }, 
+    "1999": {
+        "gdppc": 34535.0, 
+        "life_expectancy": 76.58292683, 
+        "unemployment": 4.300000191
+    }, 
+    "2000": {
+        "gdppc": 36355.0, 
+        "life_expectancy": 76.63658537, 
+        "unemployment": 4.099999905
+    }, 
+    "2001": {
+        "gdppc": 37166.0, 
+        "life_expectancy": 76.83658537, 
+        "unemployment": 4.800000191
+    }, 
+    "2002": {
+        "gdppc": 38054.0, 
+        "life_expectancy": 76.93658537, 
+        "unemployment": 5.900000095
+    }, 
+    "2003": {
+        "gdppc": 39555.0, 
+        "life_expectancy": 77.03658537, 
+        "unemployment": 6.099999905
+    }, 
+    "2004": {
+        "gdppc": 41818.0, 
+        "life_expectancy": 77.48780488, 
+        "unemployment": 5.599999905
+    }, 
+    "2005": {
+        "gdppc": 44215.0, 
+        "life_expectancy": 77.48780488, 
+        "unemployment": 5.199999809
+    }, 
+    "2006": {
+        "gdppc": 46362.0, 
+        "life_expectancy": 77.68780488, 
+        "unemployment": 4.699999809
+    }, 
+    "2007": {
+        "gdppc": 47994.0, 
+        "life_expectancy": 77.98780488, 
+        "unemployment": 4.699999809
+    }, 
+    "2008": {
+        "gdppc": 48341.0, 
+        "life_expectancy": 78.03902439, 
+        "unemployment": 5.900000095
+    }, 
+    "2009": {
+        "gdppc": 46931.0, 
+        "life_expectancy": 78.3902439, 
+        "unemployment": 9.399999619
+    }, 
+    "2010": {
+        "gdppc": 48291.0, 
+        "life_expectancy": 78.54146341, 
+        "unemployment": 9.699999809
+    }, 
+    "2011": {
+        "gdppc": 49675.0, 
+        "life_expectancy": 78.64146341, 
+        "unemployment": 9.0
+    }, 
+    "2012": {
+        "gdppc": 51319.0, 
+        "life_expectancy": 78.74146341, 
+        "unemployment": 8.199999809
+    }, 
+    "2013": {
+        "gdppc": 52543.0, 
+        "life_expectancy": 78.84146341, 
+        "unemployment": 7.400000095
+    }
+}
