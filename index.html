@@ -1,0 +1,1313 @@
+<html>
+<head>
+	<title>INFO 3300 - Project 2</title>
+
+	<!-- Load the d3 library. -->
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="http://d3js.org/topojson.v1.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+	<style type="text/css">
+	body {
+		margin: 0;
+		background-color: #f5f5dc;
+		font-family: open sans;
+	}
+
+	.heading {
+		text-align: center;
+		padding-top: 10px;
+		background-color: teal;
+		width: 100%;
+		height: 120px;
+		color: beige;
+		box-shadow: 0px 8px 8px #888888;
+		margin-bottom: 20px;
+	}
+
+	.plot {
+		padding: 5px;
+		display: inline-block;
+	}
+
+	#map {
+		margin-top: 40px;
+		text-align: center;
+	}
+
+	#map svg {
+		border: 1px solid black;
+		margin-bottom: 20px;
+	}
+
+	#slider{
+		width: 400px;
+	}
+
+	.button-row {
+		text-align: center;
+	}
+
+	.data-button {
+		width: 30%;
+		height: 50px;
+		background-color: orange;
+		cursor: pointer;
+		margin: 5px;
+		text-align: center
+		border-radius: 25px;
+	}
+
+	.data-button:focus {outline:0;}
+
+	.data-button:hover {
+		background-color: lightgreen;
+	}
+
+	.main {
+		text-align: center;
+	}
+
+	.main-text {
+		margin: 10px 30px;
+		text-align: left;
+	}
+
+	#slider {
+		width: 70%;
+		text-align: center;
+		margin-top: 7px;
+	}
+
+	#left-year {
+		float: left;
+		margin-left: 7%;
+		margin-top: 5px;
+	}
+
+	#right-year {
+		float: right;
+		margin-right: 7%;
+		margin-top: 5px;
+	}
+
+	#year-display, #filter-display {
+		display: inline-block;
+		margin: 0 50px;
+	}
+
+	svg {
+		/*border: 1px solid black;*/
+	}
+	.helptext{
+		text-align:center;
+		font-size: 1.2em;
+		padding-left:20%;
+		padding-right: 20%;
+	}
+	</style>
+</head>
+<body>
+	<div class = "heading">
+		<h2>Top 25 Immigration Flows to the United States from 1992 to 2013</h2>
+		<h4>By: Alin Barsan, Nikita Dubnov, and Gabriel Gonzalez</h4>
+	</div>
+
+	<div class = 'helptext'>
+		America is the destination for many immigrants from many different countries. In the year 2000, immigrants consituted 31.1 million of the 282.2 million Americans. In this visualization, we seek to investigate the reason why people find the United States a place worth going to. </p>
+	</div>
+
+	<div class = "main">
+		<h3 class = "main-text">Select a Data Filter:</h3>
+		<div class = "button-row">
+			<button class = "data-button" id = "gdp-button"><h3>Gross Domestic Product</h3></button>
+			<button class = "data-button" id = "le-button"><h3>Life Expectancy</h3></button>
+			<button class = "data-button" id = "ur-button"><h3>Unemployment Rate</h3></button>
+		</div>
+
+		<h3 class = "main-text">Select a Year:</h3>
+		<h3 id = "left-year">Min: 1992</h3>
+		<input id="slider" type="range" min="1992" max="2013" step="1" value="1992" align="center" position="fixed">
+		<h3 id = "right-year">Max: 2013</h3>
+
+		<br><br>
+
+		<h3 class = "main-text">Selections Made:</h3>
+
+		<div>
+			<h2 id="filter-display" align="center"></h2>
+			<h2 id="year-display" align="center"></h2>
+		</div>
+
+		<div id = "all-plots">
+			<div class = "plot" id = "yearplot"></div>
+			<div class = "plot" id = "dotplot"></div>
+		</div>
+
+		<div id = "map" float="left"></div>
+	</div>
+
+	<script>
+
+	// global variables
+	// map svg dimentions
+	var width = 1000,
+		height = 500;
+
+	var id_list = [124, 156, 170, 192, 214, 218, 222, 276, 320, 328, 332, 356, 364, 388, 484, 566, 586, 604, 608, 616, 643, 410, 804, 826, 704];
+
+	var projection = d3.geo.mercator();
+	var path = d3.geo.path().projection(projection);
+
+	var svg = d3.select("#map").append("svg")
+		.attr("width", width)
+		.attr("height", height);
+
+	var g = svg.append("g");
+
+	var worldObjects,
+		map_domain;
+
+	var countries_dict = {124: "Canada", 156: "China", 170: "Colombia", 192: "Cuba", 214: "Dominican Republic", 218: "Ecuador", 222: "El Salvador", 276: "Germany", 320: "Guatemala", 328: "Guyana", 332: "Haiti", 356: "India", 364: "Iran", 388: "Jamaica",484: "Mexico", 566: "Nigeria", 586: "Pakistan", 604: "Peru", 608: "Philippines", 616: "Poland", 643: "Russia", 410: "South Korea", 804: "Ukraine", 826: "United Kingdom", 704: "Vietnam"};
+
+	var emigrants_array = [];
+	var	sample_year;
+	var countries;
+
+	var year = "1992";
+
+	var usaData;
+
+	var slider_value;
+
+	var scaleLow = 0;
+	var scaleHigh = 60000;
+
+	// global variables
+	var immPlotHeight = 500,
+		immPlotWidth = 900,
+		immPlotPadding = 30,
+		test_data; // only used until the slider is active
+
+	var slider = document.getElementById("slider");
+	var currData,
+		maxEmigrantsPercent,
+		year;
+
+	var selection = "gdp_view"; // wil; indicate which button was chosen
+	// x and y scales for the scatter plot that will be changed based on the button that was selected
+	var xScaleDot,
+		yScaleDot;
+
+	// will be used to choose location of text box
+	var selectX,
+		selectY;
+
+	var SigFigs = d3.format("0.3r");
+
+	document.getElementById("filter-display").innerHTML = "Filter: Gross Domestic Product";
+
+	document.getElementById("year-display").innerHTML = "Year: " + 1992;
+
+	// making the map of the world
+	d3.json("static/world-50m.json", function(error, world) {
+		worldObjects = world;
+
+		if (error) {console.log(error)};
+
+		countries = topojson.feature(world, world.objects.countries).features;
+
+		// Getting Data JSON
+		d3.json("static/data-updated.json", function(error, data) {
+
+			// Entering USA data
+			d3.json("static/usa.json", function(error, us_data) {
+
+				currData = data[year];
+				maxEmigrantsPercent = 0;
+
+				for (var x in data) {
+					for (y in data[x]) {
+						thisEmigrantsPercent = data[x][y]["emigrants"]/data[x][y]["population"];
+						if (thisEmigrantsPercent > maxEmigrantsPercent) {
+							maxEmigrantsPercent = thisEmigrantsPercent;
+						}
+					}
+				}
+
+				// button functions
+				d3.select("#gdp-button").on("click",function(){
+					selection = "gdp_view";
+					update(selection);
+				});
+				d3.select("#le-button").on("click", function(){
+					selection = "le_view";
+					update(selection);
+				});
+				d3.select("#ur-button").on("click", function(){
+					selection = "ur_view";
+					update(selection);
+				});
+
+				countries.forEach(function (country) {
+					g.append("path").attr("d", path(country))
+						.attr("class", "mapPath")
+						.attr("id", "country_"+country.id)
+						.attr("transform","translate(0,50)")
+						.style("fill", CountryColor(String(country.id)))
+						.style("stroke", "#888")
+						.on('mouseover', function() {
+							d3.select(this)
+								.attr("stroke-width", 3);
+
+							storeVal(country.id);
+						})
+						.on('mouseout', function() {
+							d3.select(this)
+								.attr("stroke-width", 1)
+
+							storeValUndo(country.id)
+						});
+				}); // End of countries forEach
+
+				// Making the plots
+				var dotSvg = d3.select("#dotplot").append("svg")
+								.attr("height", 400)
+								.attr("width", 500);
+
+				var yearSvg = d3.select("#yearplot").append("svg")
+								.attr("height", 400)
+								.attr("width", 600);
+
+				// initial setting
+				if (selection == "gdp_view") {
+					xScaleDot = d3.scale.linear().domain([0,60000]).range([100, 350]);
+					yScaleYear = d3.scale.linear().domain([0,60000]).range([350,50]);
+				}
+				var xScaleYear = d3.scale.linear().domain([1992, 2014]).range([100, 550]);
+
+				var yScaleDot = d3.scale.linear().domain([0,maxEmigrantsPercent]).range([350,50]);
+
+				var xAxisDot = d3.svg.axis()
+					.scale(xScaleDot)
+					.orient("bottom")
+					.tickSize(2,2)
+					.ticks(3)
+					.outerTickSize(2);
+
+				var xAxisYear = d3.svg.axis()
+					.scale(xScaleYear)
+					.orient("bottom")
+					.tickSize(2,2)
+					.ticks(11)
+					.outerTickSize(2)
+					.tickFormat(d3.format("d"));
+
+				dotSvg.append("g").attr("class", "x-axis").attr("id","dot-x-axis")
+					.attr("transform", "translate(0, 350)")
+					.call(xAxisDot);
+
+				yearSvg.append("g").attr("class", "x-axis")
+					.attr("transform", "translate(0, 350)")
+					.call(xAxisYear);
+
+				var yAxisDot = d3.svg.axis()
+					.scale(yScaleDot)
+					.orient("left")
+					.tickSize(2,2)
+					.ticks(6)
+					.innerTickSize(-1200)
+					.outerTickSize(2)
+					.tickPadding(5);
+
+				var yAxisYear = d3.svg.axis()
+					.scale(yScaleYear)
+					.orient("left")
+					.tickSize(2,2)
+					.ticks(6)
+					.innerTickSize(-1200)
+					.outerTickSize(2)
+					.tickPadding(5);
+
+				dotSvg.append("g").attr("class", "y-axis")
+					.attr("transform", "translate(100, 0)")
+					.call(yAxisDot);
+
+				yearSvg.append("g").attr("class", "y-axis").attr("id","y-axis-year")
+					.attr("transform", "translate(100, 0)")
+					.call(yAxisYear);
+
+				dotSvg.append("text")
+					.attr("id", "dotXText")
+					.attr("x", yScaleDot(maxEmigrantsPercent/2))
+					.attr("y", 385)
+					.attr("alignment-baseline", "middle")
+					.attr("text-anchor", "middle")
+					.text("GDP per Capita (USD)");
+
+				dotSvg.append("text")
+					.attr("x", -100)
+					.attr("y", dotSvg.attr("height")/2 + 5)
+					.attr("alignment-baseline", "middle")
+					.attr("text-anchor", "middle")
+					.attr("transform","rotate(270 30,30) translate(-50,-170)")
+					.text("Emigrants / Population (%)");
+
+				yearSvg.append("text")
+					.attr("x", 300)
+					.attr("y", 385)
+					.attr("alignment-baseline", "middle")
+					.attr("text-anchor", "middle")
+					.text("Year");
+
+				yearSvg.append("text")
+					.attr("id", "yearYText")
+					.attr("x", -100)
+					.attr("y", dotSvg.attr("height")/2 + 5)
+					.attr("alignment-baseline", "middle")
+					.attr("text-anchor", "middle")
+					.attr("transform","rotate(270 30,30) translate(-50,-170)")
+					.text("GDP per Capita (USD)");
+
+				// Load the USA data
+				usaData = us_data[year];
+
+				dotSvg.append("line")
+					.attr("id", "usa-dot")
+					.attr("y1", yScaleDot(0))
+					.attr("x1", xScaleDot(usaData.gdppc))
+					.attr("y2", yScaleDot(maxEmigrantsPercent))
+					.attr("x2", xScaleDot(usaData.gdppc))
+					.attr("stroke", "orange")
+					.attr("stroke-width", 5)
+					.attr("opacity", 0.5)
+					.on('mouseover', function () {
+						highlightUs();
+					})
+					.on('mouseout', function () {
+						unHighlightUs();
+					});
+
+				// Adding circles to dot plot
+				for (var i in currData) {
+					dotSvg.append("circle")
+						.attr("id", "circles_"+i)
+						.attr("cx", xScaleDot(currData[i]["gdppc"]))
+						.attr("cy", yScaleDot(currData[i]["emigrants"]/currData[i]["population"]))
+						.attr("r", 7)
+						.attr("opacity", 0.5)
+						.attr("fill", CountryColor(i))
+						.on('mouseover', function() {
+							dot = d3.select(this);
+							selectedCountry = dot.attr("id").split("_")[1];
+							highlightAll(selectedCountry);
+						})
+						.on('mouseout', function() {
+							dot = d3.select(this);
+							selectedCountry = dot.attr("id").split("_")[1];
+
+							unHighlightAll(selectedCountry);
+						});
+
+				}// end for
+
+				//Adding lines to year plot
+				var usLine = "",
+					canada_line = "",
+					china_line = "",
+					colombia_line = "",
+					cuba_line = "",
+					dr_line = "",
+					ecuador_line = "",
+					salvador_line ="",
+					germany_line ="",
+					guatemala_line ="",
+					guyana_line = "",
+					haiti_line = "",
+					india_line = "",
+					iran_line = "",
+					jamaica_line = "",
+					mexico_line ="",
+					nigeria_line = "",
+					pakistan_line = "",
+					peru_line = "",
+					philippines_line = ""
+					poland_line = "",
+					russia_line = "",
+					southk_line = "",
+					ukraine_line = "",
+					uk_line = "",
+					vietnam_line = "";
+
+				var line_data = []
+
+				for (var y in us_data) {
+					usLine += " " + xScaleYear(y) + "," + yScaleYear(us_data[y].gdppc);
+				}
+
+				function get_line_data(target){
+					//stores tuple (id, country code str, points)
+					line_data = []
+					canada_line = "",
+						china_line = "",
+						colombia_line = "",
+						cuba_line = "",
+						dr_line = "",
+						ecuador_line = "",
+						salvador_line ="",
+						germany_line ="",
+						guatemala_line ="",
+						guyana_line = "",
+						haiti_line = "",
+						india_line = "",
+						iran_line = "",
+						jamaica_line = "",
+						mexico_line ="",
+						nigeria_line = "",
+						pakistan_line = "",
+						peru_line = "",
+						philippines_line = ""
+						poland_line = "",
+						russia_line = "",
+						southk_line = "",
+						ukraine_line = "",
+						uk_line = "",
+						vietnam_line = "";
+					if (target == "gdp"){
+						for (var y in us_data){
+							canada_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][124].gdppc);
+							china_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][156].gdppc);
+							colombia_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][170].gdppc);
+							cuba_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][192].gdppc);
+							dr_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][214].gdppc);
+							ecuador_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][218].gdppc);
+							salvador_line +=" " + xScaleYear(y) +"," +yScaleYear(data[y][222].gdppc);
+							germany_line +=" " + xScaleYear(y) +"," +yScaleYear(data[y][276].gdppc);
+							guatemala_line +=" " + xScaleYear(y) +"," +yScaleYear(data[y][320].gdppc);
+							guyana_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][328].gdppc);
+							haiti_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][332].gdppc);
+							india_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][356].gdppc);
+							iran_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][364].gdppc);
+							jamaica_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][388].gdppc);
+							mexico_line +=" " + xScaleYear(y) +"," +yScaleYear(data[y][484].gdppc);
+							nigeria_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][566].gdppc);
+							pakistan_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][586].gdppc);
+							peru_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][604].gdppc);
+							philippines_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][608].gdppc);
+							poland_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][616].gdppc);
+							russia_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][643].gdppc);
+							southk_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][410].gdppc);
+							ukraine_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][804].gdppc);
+							uk_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][826].gdppc);
+							vietnam_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][704].gdppc);
+						}
+					} else if (target == "life_expectancy") {
+						for (var y in us_data){
+							canada_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][124].life_expectancy);
+							china_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][156].life_expectancy);
+							colombia_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][170].life_expectancy);
+							cuba_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][192].life_expectancy);
+							dr_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][214].life_expectancy);
+							ecuador_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][218].life_expectancy);
+							salvador_line +=" " + xScaleYear(y) +"," +yScaleYear(data[y][222].life_expectancy);
+							germany_line +=" " + xScaleYear(y) +"," +yScaleYear(data[y][276].life_expectancy);
+							guatemala_line +=" " + xScaleYear(y) +"," +yScaleYear(data[y][320].life_expectancy);
+							guyana_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][328].life_expectancy);
+							haiti_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][332].life_expectancy);
+							india_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][356].life_expectancy);
+							iran_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][364].life_expectancy);
+							jamaica_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][388].life_expectancy);
+							mexico_line +=" " + xScaleYear(y) +"," +yScaleYear(data[y][484].life_expectancy);
+							nigeria_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][566].life_expectancy);
+							pakistan_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][586].life_expectancy);
+							peru_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][604].life_expectancy);
+							philippines_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][608].life_expectancy);
+							poland_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][616].life_expectancy);
+							russia_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][643].life_expectancy);
+							southk_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][410].life_expectancy);
+							ukraine_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][804].life_expectancy);
+							uk_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][826].life_expectancy);
+							vietnam_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][704].life_expectancy);
+						}
+					} else if (target == "unemployment") {
+						for (var y in us_data){
+							canada_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][124].unemployment);
+							china_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][156].unemployment);
+							colombia_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][170].unemployment);
+							cuba_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][192].unemployment);
+							dr_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][214].unemployment);
+							ecuador_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][218].unemployment);
+							salvador_line +=" " + xScaleYear(y) +"," +yScaleYear(data[y][222].unemployment);
+							germany_line +=" " + xScaleYear(y) +"," +yScaleYear(data[y][276].unemployment);
+							guatemala_line +=" " + xScaleYear(y) +"," +yScaleYear(data[y][320].unemployment);
+							guyana_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][328].unemployment);
+							haiti_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][332].unemployment);
+							india_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][356].unemployment);
+							iran_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][364].unemployment);
+							jamaica_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][388].unemployment);
+							mexico_line +=" " + xScaleYear(y) +"," +yScaleYear(data[y][484].unemployment);
+							nigeria_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][566].unemployment);
+							pakistan_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][586].unemployment);
+							peru_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][604].unemployment);
+							philippines_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][608].unemployment);
+							poland_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][616].unemployment);
+							russia_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][643].unemployment);
+							southk_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][410].unemployment);
+							ukraine_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][804].unemployment);
+							uk_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][826].unemployment);
+							vietnam_line += " " + xScaleYear(y) +"," +yScaleYear(data[y][704].unemployment);
+						}
+					}
+					line_data.push(["canada-line", "124", canada_line]);
+					line_data.push(["china-line", "156", china_line]);
+					line_data.push(["colombia-line", "170", colombia_line]);
+					line_data.push(["cuba-line", "192", cuba_line]);
+					line_data.push(["dr-line", "214", dr_line]);
+					line_data.push(["ecuador-line", "218", ecuador_line]);
+					line_data.push(["salvador-line", "222", salvador_line]);
+					line_data.push(["germany-line", "276", germany_line]);
+					line_data.push(["guatemala-line", "320", guatemala_line]);
+					line_data.push(["guyana-line", "328", guyana_line]);
+					line_data.push(["haiti-line", "332", haiti_line]);
+					line_data.push(["india-line", "356", india_line]);
+					line_data.push(["iran-line", "364", iran_line]);
+					line_data.push(["jamaica-line", "388", jamaica_line]);
+					line_data.push(["mexico-line", "484", mexico_line]);
+					line_data.push(["nigeria-line", "566", nigeria_line]);
+					line_data.push(["pakistan-line", "586", pakistan_line]);
+					line_data.push(["peru-line", "604", peru_line]);
+					line_data.push(["philippines-line", "608", philippines_line]);
+					line_data.push(["poland-line", "616", poland_line]);
+					line_data.push(["russia-line", "643", russia_line]);
+					line_data.push(["southk-line", "410", southk_line]);
+					line_data.push(["ukraine-line", "804", ukraine_line]);
+					line_data.push(["uk-line", "826", uk_line]);
+					line_data.push(["vietnam-line", "704", vietnam_line]);
+					return line_data
+				}
+
+				function draw_line_data(line_data){
+					for (var i in line_data){
+						var elem = line_data[i];
+						var tempid = elem[0];
+						var tempccolor = elem[1];
+						var temppoints = elem[2];
+
+						yearSvg.append("polyline")
+							.attr("id","line_" + tempccolor)
+							.attr("points", temppoints)
+							.attr("stroke", CountryColor(tempccolor))
+							.attr("stroke-width", 5)
+							.attr("opacity", 0.5)
+							.attr("fill", "none");
+					}
+				}
+
+
+				yearSvg.append("polyline")
+					.attr("id","usa-line")
+					.attr("points", usLine)
+					.attr("stroke", "orange")
+					.attr("stroke-width", 5)
+					.attr("opacity", 0.5)
+					.attr("fill", "none")
+					.on('mouseover', function () {
+						highlightUs();
+					})
+					.on('mouseout', function () {
+						unHighlightUs();
+					});
+
+				line_data = get_line_data("gdp");
+				draw_line_data(line_data);
+				for (var i in line_data){
+						var tarid = line_data[i][1]
+						d3.selectAll("#line_" + tarid)
+									.on('mouseover', function() {
+										l = d3.select(this);
+										selectedCountry = l.attr("id").split("_")[1];
+										highlightAll(selectedCountry);
+									})
+									.on('mouseout', function() {
+										l = d3.select(this);
+										selectedCountry = l.attr("id").split("_")[1];
+										unHighlightAll(selectedCountry);
+									});
+					}
+
+				yearSvg.append("line")
+					.attr("id", "yearLine")
+					.attr("y1", yScaleYear(scaleLow))
+					.attr("y2", yScaleYear(scaleHigh))
+					.attr("x1", xScaleYear(year))
+					.attr("x2", xScaleYear(year))
+					.attr("stroke", "black")
+					.attr("stroke-width", 5)
+					.attr("opacity", 0.5);
+
+				slider.oninput = function(){
+					console.log(selection);
+					slider_value = slider.value;
+					currData = data[slider.value];
+
+					document.getElementById("year-display").innerHTML = "Year: " + slider.value;
+
+					for (var i in currData){
+						var circles = d3.select("#circles_"+i);
+
+						if (selection === "gdp_view"){
+							circles.transition().duration(1000)
+								.attr("cy", yScaleDot(currData[i].emigrants/currData[i].population))
+								.attr("cx", xScaleDot(currData[i].gdppc));
+						}
+						else if (selection === "le_view"){
+							circles.transition().duration(1000)
+								.attr("cy", yScaleDot(currData[i].emigrants/currData[i].population))
+								.attr("cx", xScaleDot(currData[i].life_expectancy));
+						}
+						else if (selection === "ur_view"){
+							circles.transition().duration(1000)
+								.attr("cy", yScaleDot(currData[i].emigrants/currData[i].population))
+								.attr("cx", xScaleDot(currData[i].unemployment));
+						}
+
+					} // end for loop
+
+					usaData = us_data[slider.value];
+
+					var us_dot = d3.select("#usa-dot");
+
+
+					if (selection ==="gdp_view"){
+						us_dot.transition().duration(1000)
+							.attr("x1", xScaleDot(usaData.gdppc))
+							.attr("x2", xScaleDot(usaData.gdppc));
+
+						// Adjust year line to year plot
+						d3.select("#yearLine").transition().duration(1000)
+							.attr("x1", xScaleYear(slider.value))
+							.attr("x2", xScaleYear(slider.value));
+
+					}
+					else if (selection ==="le_view"){
+						us_dot.transition().duration(1000)
+							.attr("x1", xScaleDot(usaData.life_expectancy))
+							.attr("x2", xScaleDot(usaData.life_expectancy));
+
+						// Adjust year line to year plot
+						d3.select("#yearLine").transition().duration(1000)
+							.attr("x1", xScaleYear(slider.value))
+							.attr("x2", xScaleYear(slider.value));
+					}
+					else if (selection ==="ur_view"){
+						us_dot.transition().duration(1000)
+							.attr("x1", xScaleDot(usaData.unemployment))
+							.attr("x2", xScaleDot(usaData.unemployment));
+
+						// Adjust year line to year plot
+						d3.select("#yearLine").transition().duration(1000)
+							.attr("x1", xScaleYear(slider.value))
+							.attr("x2", xScaleYear(slider.value));
+					}
+
+				} // end slider
+
+
+				function highlightAll(elem) {
+					if (elem == 840) {
+						highlightUs();
+					}
+
+					d3.select("#usa-line")
+						.attr("opacity", 1);
+
+					// All Elements
+					d3.select("#circles_"+elem)
+						.attr("opacity", 1)
+						.attr("stroke", "black");
+
+					d3.select("#line_" + elem)
+						.attr("opacity", 1);
+
+					for (var i in currData) {
+						if (!(elem == i)){
+							d3.select("#line_" + i)
+								.attr("opacity", .1);
+						}
+					}
+
+					for (var i in currData) {
+						if (!(elem == i)){
+							d3.select("#circles_" + i)
+								.attr("opacity", .1);
+						}
+					}
+
+					selectX = d3.select("#circles_"+elem).attr("cx");
+					selectY = d3.select("#circles_"+elem).attr("cy");
+
+					if (selection == "gdp_view"){
+
+						dotSvg.append("rect")
+							.attr("class", "country-box")
+							.attr("x", selectX - 90)
+							.attr("y", selectY - 70)
+							.attr("height", 65)
+							.attr("width", 180)
+							.attr("fill", "white")
+							.attr("stroke", "black");
+
+						dotSvg.append("text")
+							.attr("class", "country-text")
+							.attr("x", selectX)
+							.attr("y", selectY - 55)
+							.attr("alignment-baseline", "middle")
+							.attr("text-anchor", "middle")
+							.attr("font-size", 13)
+							.text(countries_dict[elem]);
+
+						dotSvg.append("text")
+							.attr("class","country-text")
+							.attr("id","country-text-value")
+							.attr("x", selectX)
+							.attr("y", selectY - 35)
+							.attr("alignment-baseline","middle")
+							.attr("text-anchor","middle")
+							.attr("font-size",13)
+							.text("GDP: "+ currData[elem].gdppc);
+
+						dotSvg.append("text")
+							.attr("class","country-text")
+							.attr("id","country-text-value")
+							.attr("x", selectX)
+							.attr("y", selectY - 15)
+							.attr("alignment-baseline","middle")
+							.attr("text-anchor","middle")
+							.attr("font-size",13)
+							.text("Emigrants/Pop: "+ SigFigs(currData[elem].emigrants/currData[elem].population));
+					}
+					else if (selection == "le_view"){
+
+						dotSvg.append("rect")
+							.attr("class", "country-box")
+							.attr("x", selectX - 90)
+							.attr("y", selectY - 70)
+							.attr("height", 65)
+							.attr("width", 180)
+							.attr("fill", "white")
+							.attr("stroke", "black");
+
+						dotSvg.append("text")
+							.attr("class", "country-text")
+							.attr("x", selectX)
+							.attr("y", selectY - 55)
+							.attr("alignment-baseline", "middle")
+							.attr("text-anchor", "middle")
+							.attr("font-size", 13)
+							.text(countries_dict[elem]);
+
+						dotSvg.append("text")
+							.attr("class","country-text")
+							.attr("id","country-text-value")
+							.attr("x", selectX)
+							.attr("y", selectY - 35)
+							.attr("alignment-baseline","middle")
+							.attr("text-anchor","middle")
+							.attr("font-size",13)
+							.text("Life Expectancy: "+ currData[elem].life_expectancy);
+
+						dotSvg.append("text")
+							.attr("class","country-text")
+							.attr("id","country-text-value")
+							.attr("x", selectX)
+							.attr("y", selectY - 15)
+							.attr("alignment-baseline","middle")
+							.attr("text-anchor","middle")
+							.attr("font-size",13)
+							.text("Emigrants/Pop: "+ SigFigs(currData[elem].emigrants/currData[elem].population));
+					}
+					else if (selection == "ur_view"){
+						dotSvg.append("rect")
+							.attr("class", "country-box")
+							.attr("x", selectX - 90)
+							.attr("y", selectY - 70)
+							.attr("height", 65)
+							.attr("width", 180)
+							.attr("fill", "white")
+							.attr("stroke", "black");
+
+						dotSvg.append("text")
+							.attr("class", "country-text")
+							.attr("x", selectX)
+							.attr("y", selectY - 55)
+							.attr("alignment-baseline", "middle")
+							.attr("text-anchor", "middle")
+							.attr("font-size", 13)
+							.text(countries_dict[elem]);
+
+						dotSvg.append("text")
+							.attr("class","country-text")
+							.attr("id","country-text-value")
+							.attr("x", selectX)
+							.attr("y", selectY - 35)
+							.attr("alignment-baseline","middle")
+							.attr("text-anchor","middle")
+							.attr("font-size",13)
+							.text("Unemployment: "+ currData[elem].unemployment);
+
+						dotSvg.append("text")
+							.attr("class","country-text")
+							.attr("id","country-text-value")
+							.attr("x", selectX)
+							.attr("y", selectY - 15)
+							.attr("alignment-baseline","middle")
+							.attr("text-anchor","middle")
+							.attr("font-size",13)
+							.text("Emigrants/Pop: "+ SigFigs(currData[elem].emigrants/currData[elem].population));
+					}
+
+				}// end highlightAll
+
+				function unHighlightAll(elem) {
+					if (elem == 840) {
+						unHighlightUs();
+					}
+
+					d3.select("#usa-line")
+						.attr("opacity", 0.5);
+
+					d3.selectAll(".country-box").remove();
+					d3.selectAll(".country-text").remove();
+
+					d3.select("#circles_"+elem)
+						.attr("opacity", 0.5)
+						.attr("stroke", "none");
+
+					for (var i in currData) {
+						d3.select("#line_" + i)
+							.attr("opacity", .5);
+					}
+
+					for (var i in currData) {
+						if (!(elem == i)){
+							d3.select("#circles_" + i)
+								.attr("opacity", .5);
+						}
+					}
+				}
+
+				function storeVal(country) {
+					highlightAll(country);
+				}
+
+				function storeValUndo(country) {
+					unHighlightAll(country);
+				}
+
+				function CountryColor(index){
+			        switch(index){
+			            // USA
+			            case "840":
+			                return "orange";
+			            // North America
+			            case "124": // canada
+			            case "484": // mexico
+			                return "#00ff00";
+			                break;
+			            // South/Middle America and the Caribbean
+			            case "320": // guatemala
+			            case "170": // colombia
+			            case "218": // ecuador
+			            case "604": // Peru
+			            case "328": // guyana
+			            case "192": // cuba
+			            case "214": // dominican Republic
+			            case "332": // haiti
+			            case "222": // el Salvador
+			            case "388": // Jamaica
+			                return "#4d4dff";
+			                break;
+			            // Europe
+			            case "826": // UK
+			            case "276": // Germany
+			            case "616": // Poland
+			            case "804": // Ukraine
+			            case "643": // Russia
+			                return "#00ffff";
+			                break;
+			            // Africa
+			            case "566": // Nigeria
+			                return "#ff3385"
+			                break;
+			            // Asia and Philippines
+			            case "356": // India
+			            case "364": // Iran
+			            case "586": // Pakistan
+			            case "704": // Vietnam
+			            case "608": // Philippines
+			            case "410": // South Korea
+			            case "156": // China
+			             return "#ff3333";
+			             break;
+			            default:
+			                return "#cccccc";
+			                break;
+			         }
+			     } // end CountryColor
+
+				 function update(choice){
+					selection = choice;
+				 	d3.selectAll("#usa-line").remove();
+					for (var i in line_data){
+						var tarid = line_data[i][1]
+						d3.select("#line_" + tarid).remove();
+					}
+
+					// update circles
+					for (var i in currData){
+
+						if (choice === "gdp_view"){
+							//************ Scatter Plot updates ************//
+
+							// update header
+							document.getElementById("filter-display").innerHTML = "Filter: Gross Domestic Product"
+
+							// update scales
+							xScaleDot = d3.scale.linear().domain([0,60000]).range([100, 350]);
+
+							// update circle position
+							d3.select("#circles_"+i).transition().duration(1000)
+								.attr("cy", yScaleDot(currData[i].emigrants/currData[i].population))
+								.attr("cx", xScaleDot(currData[i].gdppc));
+
+							// update axis label
+							d3.select("#dotXText")
+								.text("GDP per Capita (USD)");
+
+							// update vertical USA line position
+							d3.select("#usa-dot").transition().duration(1000)
+								.attr("y1", yScaleDot(0))
+								.attr("x1", xScaleDot(usaData.gdppc))
+								.attr("y2", yScaleDot(maxEmigrantsPercent))
+								.attr("x2", xScaleDot(usaData.gdppc));
+						}
+
+						else if (choice === "le_view"){
+							//************ Scatter Plot updates ************//
+
+							// update header
+							document.getElementById("filter-display").innerHTML = "Filter: Life Expectancy"
+
+							//update scales
+							xScaleDot = d3.scale.linear().domain([40,85]).range([100, 350]);
+
+							// update circle position
+							d3.select("#circles_"+i).transition().duration(1000)
+								.attr("cy", yScaleDot(currData[i].emigrants/currData[i].population))
+								.attr("cx", xScaleDot(currData[i].life_expectancy));
+
+							// update axis label
+							d3.select("#dotXText")
+								.text("Life Expectancy (Years)");
+
+							// update vertical USA line position
+							d3.select("#usa-dot").transition().duration(1000)
+								.attr("y1", yScaleDot(0))
+								.attr("x1", xScaleDot(usaData.life_expectancy))
+								.attr("y2", yScaleDot(maxEmigrantsPercent))
+								.attr("x2", xScaleDot(usaData.life_expectancy));
+						}
+						else if (choice === "ur_view"){
+							//************ Scatter Plot updates ************//
+
+							// update header
+							document.getElementById("filter-display").innerHTML = "Filter: Unemployment Rate"
+
+							// update scales
+							xScaleDot = d3.scale.linear().domain([0,22]).range([100, 350]);
+
+							// update circle position
+							d3.select("#circles_"+i).transition().duration(1000)
+								.attr("cy", yScaleDot(currData[i].emigrants/currData[i].population))
+								.attr("cx", xScaleDot(currData[i].unemployment));
+
+							// update axis label
+							d3.select("#dotXText")
+								.text("Unemployment Rate (%)");
+
+							// update vertical USA line position
+							d3.select("#usa-dot").transition().duration(1000)
+								.attr("y1", yScaleDot(0))
+								.attr("x1", xScaleDot(usaData.unemployment))
+								.attr("y2", yScaleDot(maxEmigrantsPercent))
+								.attr("x2", xScaleDot(usaData.unemployment));
+						}// end if
+						d3.select("circles_"+i)
+								.on('mouseover', function() {
+									dot = d3.select(this);
+									selectedCountry = dot.attr("id").split("_")[1];
+
+									highlightAll(selectedCountry);
+								})
+								.on('mouseout', function() {
+									dot = d3.select(this);
+									selectedCountry = dot.attr("id").split("_")[1];
+
+									unHighlightAll(selectedCountry);
+								});
+					} // end for loop
+
+					// YEAR LINE UPDATES
+
+					if (choice == "gdp_view") {
+						//************ Line Plot Updates *************//
+						// update scale
+						yScaleYear = d3.scale.linear().domain([0,60000]).range([350,50]);
+
+						// update text
+						d3.select("#yearYText").text("GDP per Capita (USD)");
+
+						usLine = "";
+
+						// update location uf the US line
+						for (var y in us_data) {
+							usLine += " " + xScaleYear(y) + "," + yScaleYear(us_data[y].gdppc);
+						}
+
+						yearSvg.append("polyline")
+							.attr("id","usa-line")
+							.attr("points", usLine)
+							.attr("stroke", "orange")
+							.attr("stroke-width", 5)
+							.attr("opacity", 0.5)
+							.attr("fill", "none");
+
+						line_data = get_line_data("gdp");
+						draw_line_data(line_data);
+					}
+					else if (choice == "le_view") {
+						//************ Line Plot Updates *************//
+						// update scale
+						yScaleYear = d3.scale.linear().domain([40,85]).range([350,50]);
+
+						// update text
+						d3.select("#yearYText").text("Life Expectancy (Years)");
+
+						usLine = "";
+
+						// update US line
+						for (var y in us_data) {
+							usLine += " " + xScaleYear(y) + "," + yScaleYear(us_data[y].life_expectancy);
+						}
+
+						yearSvg.append("polyline")
+							.attr("id","usa-line")
+							.attr("points", usLine)
+							.attr("stroke", "orange")
+							.attr("stroke-width", 5)
+							.attr("opacity", 0.5)
+							.attr("fill", "none");
+
+						line_data = get_line_data("life_expectancy");
+						draw_line_data(line_data);
+					}
+					else if (choice == "ur_view") {
+						//************ Line Plot Updates *************//
+						// update scale
+						yScaleYear = d3.scale.linear().domain([0,22]).range([350,50]);
+
+						// update text
+						d3.select("#yearYText").text("Unemployment (%)");
+
+						usLine = "";
+
+						// update US line
+						for (var y in us_data) {
+							usLine += " " + xScaleYear(y) + "," + yScaleYear(us_data[y].unemployment);
+						}
+						yearSvg.append("polyline")
+							.attr("id","usa-line")
+							.attr("points", usLine)
+							.attr("stroke", "orange")
+							.attr("stroke-width", 5)
+							.attr("opacity", 0.5)
+							.attr("fill", "none");
+
+						line_data = get_line_data("unemployment");
+						draw_line_data(line_data);
+					}
+
+					for (var i in line_data){
+						var tarid = line_data[i][1]
+						d3.selectAll("#line_" + tarid)
+									.on('mouseover', function() {
+										l = d3.select(this);
+										selectedCountry = l.attr("id").split("_")[1];
+										highlightAll(selectedCountry);
+									})
+									.on('mouseout', function() {
+										l = d3.select(this);
+										selectedCountry = l.attr("id").split("_")[1];
+										unHighlightAll(selectedCountry);
+									});
+					}
+					//*********** Scatter Plot updates *************//
+					// update x axis
+					var xAxisDot = d3.svg.axis()
+						.scale(xScaleDot)
+						.orient("bottom")
+						.tickSize(2,2)
+						.ticks(3)
+						.outerTickSize(2);
+					d3.select("#dot-x-axis")
+						.call(xAxisDot);
+
+					//************** Line Plot Updates ************//
+					// update y-axis
+					var yAxisYear = d3.svg.axis()
+						.scale(yScaleYear)
+						.orient("left")
+						.tickSize(2,2)
+						.ticks(6)
+						.innerTickSize(-1200)
+						.outerTickSize(2)
+						.tickPadding(5);
+					d3.select("#y-axis-year")
+						.call(yAxisYear);
+
+				} // end update
+
+				function highlightUs() {
+					d3.select("#usa-dot")
+						.attr("opacity", 1);
+
+					d3.select("#usa-line")
+						.attr("opacity", 1);
+
+					for (var i in currData) {
+						d3.select("#line_" + i)
+							.attr("opacity", .1);
+					}
+
+					selectX = d3.select("#usa-dot").attr("x1");
+					selectY = d3.select("#usa-dot").attr("y1");
+
+					if (selection == "gdp_view"){
+
+						dotSvg.append("rect")
+							.attr("class", "country-box")
+							.attr("x", selectX - 150)
+							.attr("y", selectY - 270)
+							.attr("height", 40)
+							.attr("width", 120)
+							.attr("fill", "white")
+							.attr("stroke", "black");
+
+						dotSvg.append("text")
+							.attr("class", "country-text")
+							.attr("x", selectX - 90)
+							.attr("y", selectY - 255)
+							.attr("alignment-baseline", "middle")
+							.attr("text-anchor", "middle")
+							.attr("font-size", 13)
+							.text("United States");
+
+						dotSvg.append("text")
+							.attr("class","country-text")
+							.attr("id","country-text-value")
+							.attr("x", selectX - 90)
+							.attr("y", selectY - 240)
+							.attr("alignment-baseline","middle")
+							.attr("text-anchor","middle")
+							.attr("font-size",13)
+							.text("GDP: "+ usaData.gdppc);
+
+					}
+					else if (selection == "le_view"){
+
+						dotSvg.append("rect")
+							.attr("class", "country-box")
+							.attr("x", selectX - 160)
+							.attr("y", selectY - 270)
+							.attr("height", 40)
+							.attr("width", 140)
+							.attr("fill", "white")
+							.attr("stroke", "black");
+
+						dotSvg.append("text")
+							.attr("class", "country-text")
+							.attr("x", selectX - 90)
+							.attr("y", selectY - 255)
+							.attr("alignment-baseline", "middle")
+							.attr("text-anchor", "middle")
+							.attr("font-size", 13)
+							.text("United States");
+
+						dotSvg.append("text")
+							.attr("class","country-text")
+							.attr("id","country-text-value")
+							.attr("x", selectX - 90)
+							.attr("y", selectY - 240)
+							.attr("alignment-baseline","middle")
+							.attr("text-anchor","middle")
+							.attr("font-size",13)
+							.text("Life Exp.: "+ usaData.life_expectancy);
+
+					}
+					else if (selection == "ur_view"){
+						var input = (usaData.unemployment).toFixed(2);
+
+						dotSvg.append("rect")
+							.attr("class", "country-box")
+							.attr("x", selectX - 140)
+							.attr("y", selectY - 270)
+							.attr("height", 40)
+							.attr("width", 125)
+							.attr("fill", "white")
+							.attr("stroke", "black");
+
+						dotSvg.append("text")
+							.attr("class", "country-text")
+							.attr("x", selectX - 75)
+							.attr("y", selectY - 255)
+							.attr("alignment-baseline", "middle")
+							.attr("text-anchor", "middle")
+							.attr("font-size", 13)
+							.text("United States");
+
+						dotSvg.append("text")
+							.attr("class","country-text")
+							.attr("id","country-text-value")
+							.attr("x", selectX - 75)
+							.attr("y", selectY - 240)
+							.attr("alignment-baseline","middle")
+							.attr("text-anchor","middle")
+							.attr("font-size",13)
+							.text("Unemployment: "+ input);
+					}
+				} // end highlightUs
+
+				function unHighlightUs() {
+					d3.select("#usa-dot")
+						.attr("opacity", 0.5);
+
+					d3.select("#usa-line")
+						.attr("opacity", 0.5);
+
+					for (var i in currData) {
+						d3.select("#line_" + i)
+							.attr("opacity", .5);
+					}
+
+					d3.selectAll(".country-box").remove();
+					d3.selectAll(".country-text").remove();
+				} // end unhighlightUs
+
+			}) // end usa.json
+		}); // end d3.json
+	}); // End of world-50m.json
+
+	</script>
+
+</body>
+</html>
